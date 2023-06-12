@@ -1,0 +1,85 @@
+{
+"VanillaShops":[
+{
+"ShopName":"RobinShop",
+"AddStockAboveVanilla":"False",
+"DefaultSellPriceMultiplier": 4.0,
+"PriceMultiplierWhen": {
+"0.5": [ "f Robin 2000" ],
+"0.75": [ "f Robin 1000" ],
+"0.9": [ "f Robin 500" ],
+},
+
+"ItemStocks":[
+//Bau 
+{
+"ItemType": "BigCraftable",
+"StockPrice": "50",
+"ItemNames": [ "Chest" ],
+},
+//Madeira de lei 
+{
+"ItemType":"Object",
+"StockPrice":"100",
+"ItemNames":[ "Hardwood" ],
+"Stock":100
+},
+//Madeira do mar 
+{
+"ItemType": "Object",
+"ItemNames": [ 
+"Driftwood", 
+"Clay",
+"Fiber", 
+],
+},
+
+//Jarra de conserva
+{
+"ItemType": "BigCraftable",
+"StockPrice": "500",
+"ItemNames": [ "Preserves Jar" ],
+"Stock":20
+},
+
+//Barril
+{
+"ItemType": "BigCraftable",
+"StockPrice": "700",
+"ItemNames": [ "Keg" ],
+"Stock":20 
+},
+
+//Casa de abelhas 
+{
+"ItemType": "BigCraftable",
+"StockPrice": "600",
+"ItemNames": [ "Bee House" ],
+"Stock":20
+},
+
+//Torneirinha 
+{
+"ItemType": "BigCraftable",
+"StockPrice": "500",
+"ItemNames": [ "Tapper" ],
+"Stock":20
+},
+
+//Barril
+{
+"ItemType": "BigCraftable",
+"StockPrice": "600",
+"ItemNames": [ "Cask" ],
+"Stock":20
+},
+
+//Vaso de Jardim 
+{
+"ItemType": "BigCraftable",
+"StockPrice": "1000",
+"ItemNames": [ "Garden Pot" ],
+"Stock":20
+}
+
+] } ] }

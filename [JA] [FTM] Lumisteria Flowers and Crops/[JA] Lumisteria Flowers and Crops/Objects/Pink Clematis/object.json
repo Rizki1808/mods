@@ -1,0 +1,48 @@
+{
+    "Name": "Pink Clematis",
+    "Description": "The flower of a sturdy climbing plant.",
+    "Category": "Flower",
+    "Edibility": 0,
+    "Price": 70,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": 
+    {
+		"Love": ["Jodi", "Linus"],
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "Haley", "Harvey", "Jas", "Kent", "Krobus", "Leah", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"],
+		"Dislike": ["Sebastian"],
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "분홍 클레마티스",
+        "de": "Rosa Clematis",
+        "fr": "Clématite rose",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Розовый клематис",
+         // "tr": "",
+        "zh": "粉色铁线莲",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "험준한 산에서 자라나는 강인한 꽃.",
+        "de": "Die Blüte einer robusten Kletterpflanze.",
+        "fr": "La fleur d'une plante grimpante robuste.",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Это цветок крепкого вьющегося растения.",
+         // "tr": "",
+        "zh": "这种花是十分结实的攀援植物",
+    },
+    "ContextTags": [
+        "flower_item",
+        "color_pink",
+		"season_fall",
+    ]
+}

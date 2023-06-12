@@ -1,0 +1,12 @@
+{
+  "Name": "If It Fits, I Sits (More Map Seats)",
+  "Author": "mouse",
+  "Version": "1.0.4",
+  "Description": "Adds various other places to sit, some of them possibly cursed.",
+  "UniqueID": "mouse.moremapseats",
+  "UpdateKeys": ["Nexus:9767"],
+  "MinimumApiVersion": "3.12.0",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "Name": "Xaliburn",
+    "Description": "Do you think it was harder to put this thing into the stone to begin with or to pull it out? Either way, it's in amazing condition for being lodged in a stone for centuries...", 
+    "Type": "Sword", 
+    "MinimumDamage": 85, 
+    "MaximumDamage": 95, 
+    "Knockback": 2, 
+	"Speed": 0,
+    "Accuracy": 100, 
+    "Defense": 10, 
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1, 
+    "ExtraSwingArea": 2,
+    "CritChance": 0.20, 
+    "CritMultiplier": 2, 
+    "CanSell": true,                         
+}

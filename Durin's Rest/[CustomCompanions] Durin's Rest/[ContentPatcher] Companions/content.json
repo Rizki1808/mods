@@ -1,0 +1,136 @@
+{
+	"Format": "1.23.0",
+
+	"Changes": [
+	{
+		"LogName": "Adds shadow creature female",
+		"Action": "EditMap",
+		"Target": "Maps/Custom_DurinsMineMap5",
+		"MapTiles": [
+            {
+              "Position": { "X": 28, "Y": 13 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 NoFogBob.DurinsRestCustomCompanionsCC.ShadowFemale",
+                },
+            },
+            {
+              "Position": { "X": 34, "Y": 30 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 NoFogBob.DurinsRestCustomCompanionsCC.ShadowFemale",
+                },
+            },
+            {
+              "Position": { "X": 19, "Y": 42 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 NoFogBob.DurinsRestCustomCompanionsCC.ShadowFemale",
+                },
+            },
+            {
+              "Position": { "X": 25, "Y": 42 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 NoFogBob.DurinsRestCustomCompanionsCC.ShadowFemale",
+                },
+            },
+        ],
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Adds shadow creature male",
+		"Action": "EditMap",
+		"Target": "Maps/Custom_DurinsMineMap5",
+		"MapTiles": [
+            {
+              "Position": { "X": 6, "Y": 13 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 NoFogBob.DurinsRestCustomCompanionsCC.ShadowMale",
+                },
+            },
+            {
+              "Position": { "X": 45, "Y": 30 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 NoFogBob.DurinsRestCustomCompanionsCC.ShadowMale",
+                },
+            },
+            {
+              "Position": { "X": 38, "Y": 39 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 NoFogBob.DurinsRestCustomCompanionsCC.ShadowMale",
+                },
+            },
+            {
+              "Position": { "X": 43, "Y": 51 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 NoFogBob.DurinsRestCustomCompanionsCC.ShadowMale",
+                },
+            },
+            {
+              "Position": { "X": 25, "Y": 48 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 NoFogBob.DurinsRestCustomCompanionsCC.ShadowMale",
+                },
+            },
+            {
+              "Position": { "X": 7, "Y": 55 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 NoFogBob.DurinsRestCustomCompanionsCC.ShadowMale",
+                },
+            },
+        ],
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Adds shadow creature short",
+		"Action": "EditMap",
+		"Target": "Maps/Custom_DurinsMineMap5",
+		"MapTiles": [
+            {
+              "Position": { "X": 32, "Y": 11 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 NoFogBob.DurinsRestCustomCompanionsCC.ShadowShort",
+                },
+            },
+            {
+              "Position": { "X": 2, "Y": 36 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 NoFogBob.DurinsRestCustomCompanionsCC.ShadowShort",
+                },
+            },
+        ],
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Adds shadow creature girl",
+		"Action": "EditMap",
+		"Target": "Maps/Custom_DurinsMineMap5",
+		"MapTiles": [
+            {
+              "Position": { "X": 33, "Y": 11 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 NoFogBob.DurinsRestCustomCompanionsCC.ShadowGirl",
+                },
+            },
+            {
+              "Position": { "X": 11, "Y": 38 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 NoFogBob.DurinsRestCustomCompanionsCC.ShadowGirl",
+                },
+            },
+        ],
+		"Update": "OnLocationChange"
+	},
+],
+}

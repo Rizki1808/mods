@@ -1,0 +1,8 @@
+﻿{
+	"Name": "Dwarven Porter",
+	"Description": "Mid-to-high strength around 7% ABV, Dwarven Porters are opaque but smooth. Distinguished by their dark color and well-hopped flavor profile.",
+	"Category": "ArtisanGoods",
+	"Edibility": 35,
+	"EdibleIsDrink": true,
+	"Price": 2000,
+}

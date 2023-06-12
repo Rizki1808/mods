@@ -1,0 +1,31 @@
+{
+"VanillaShops":[
+{
+"ShopName":"MarnieShop",
+"AddStockAboveVanilla":"False",
+"DefaultSellPriceMultiplier": 4.0,
+"PriceMultiplierWhen": {
+"0.5": [ "f Marnie 2000" ],
+"0.75": [ "f Marnie 1000" ],
+"0.9": [ "f Marnie 500" ],
+},
+"ItemStocks":[
+
+//Animal products
+{
+"ItemType":"Object",
+"ItemIDs":[ 
+//eggs
+176, 180, 174, 182, 442,
+//mayonese
+306, 307,
+//milk
+184, 186, 436, 438,
+//cheese
+424, 426,
+//Truffle
+430, 432,
+//Other animal products 
+444, 446, 440, 428, ], }
+
+] } ] }

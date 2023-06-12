@@ -1,0 +1,48 @@
+{
+    "Name": "Purple Flame",
+    "Description": "A vivid purple flower with the shape of a flame",
+    "Category": "Flower",
+    "Edibility": 0,
+    "Price": 320,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": 
+    {
+		"Love": ["Wizard", "Vincent"],
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy"],
+		"Dislike": ["Sebastian"],
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "퍼플 플레임",
+        "de": "Lila Flamme",
+        "fr": "Flammèche Pourpre",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Пурпурное пламя",
+         // "tr": "",
+        "zh": "紫焰花",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "마치 불꽃같은 모양의 선명한 보라색 꽃. 북방푸른꽃창포 라고도 부른다.",
+        "de": "Eine leuchtend violette Blume in Form einer Flamme",
+        "fr": "Une fleur d'un pourpre vif évoquant la forme d'une flamme",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Яркий пурпурный цветок, похожий на пламя.",
+         // "tr": "",
+        "zh": "一朵鲜艳的紫色花朵，形状像火焰一样",
+    },
+    "ContextTags": [
+        "flower_item",
+        "color_purple",
+		"season_fall",
+    ]
+}

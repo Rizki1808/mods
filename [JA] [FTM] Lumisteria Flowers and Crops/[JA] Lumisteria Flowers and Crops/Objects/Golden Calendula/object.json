@@ -1,0 +1,49 @@
+{
+    "Name": "Golden Calendula",
+    "Description": "A golden flower like a tiny sun.",
+    "Category": "Flower",
+    "Edibility": 15,
+    "Price": 60,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": 
+    {
+		"Love": ["Haley", "Harvey"],
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "금잔화",
+        "de": "Goldene Ringelblume",
+        "fr": "Souci Doré",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Золотая календула",
+         // "tr": "",
+        "zh": "金盏草",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "작은 태양같은 황금빛 꽃.",
+        "de": "Eine goldene Blume wie eine kleine Sonne.",
+        "fr": "Son nom vient de 'sol sui', qui suit le soleil.",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Чудесный золотой цветок, похожий на крошечное солнышко.",
+         // "tr": "",
+        "zh": "像小太阳一样的金花",
+    },
+    "ContextTags": [
+        "flower_item",
+        "edible_flower_item",
+        "color_yellow",
+		"season_summer",
+    ]
+}
+

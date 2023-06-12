@@ -1,0 +1,28 @@
+{
+"VanillaShops":[
+{
+"ShopName":"RobinShop",
+"AddStockAboveVanilla":"False",
+"DefaultSellPriceMultiplier": 4.0,
+"PriceMultiplierWhen": {
+"0.5": [ "f Robin 2000" ],
+"0.75": [ "f Robin 1000" ],
+"0.9": [ "f Robin 500" ],
+},
+"ItemStocks":[
+{
+"ItemType": "Object",
+"ItemNames": [ 
+//Fences and paths 
+"Gate", 
+"Wood Fence",
+"Stone Fence", 
+"Hardwood Fence",
+"Wood Path", 
+"Wood Floor", 
+"Weathered Floor",
+"Brick Floor", 
+],
+}
+
+] } ] }

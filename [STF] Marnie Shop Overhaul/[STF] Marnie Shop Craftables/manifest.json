@@ -1,0 +1,13 @@
+{
+"Name": "[STF] Marnie Shop Craftables",
+"Author": "LoganDoidao",
+"Version": "1.3.0",
+"Description": "Marnie sells craftables.",
+"UniqueID": "LoganDoidao.MarnieShopCraftables",
+"MinimumApiVersion": "3.4.0",
+"UpdateKeys": [ "Nexus:10556" ],
+"ContentPackFor": {
+"UniqueID": "Cherry.ShopTileFramework",
+"MinimumVersion": "1.0.5"
+  }
+}

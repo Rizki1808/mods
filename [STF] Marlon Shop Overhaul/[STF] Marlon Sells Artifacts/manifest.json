@@ -1,0 +1,13 @@
+{
+  "Name": "[STF] Marlon Sells Artifacts",
+  "Author": "LoganDoidao",
+  "Version": "1.2.0",
+  "Description": "Marlon sells artifacts.",
+  "UniqueID": "LoganDoidao.MarlonSellsArtifacts",
+  "MinimumApiVersion": "3.4.0",
+  "UpdateKeys": [ "Nexus:10578" ],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework",
+	"MinimumVersion": "1.0.5"
+  }
+}

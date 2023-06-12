@@ -1,0 +1,47 @@
+﻿{
+    "Name": "Durin's Veggie Sub",
+    "Description": "A fresh sandwich made for exploring. Toasted Dwarven Sourdough filled to the brim with artichoke spread, fresh cheese, rare Dirt Dragon Mayonnaise, and the crispy crunch of Flashy Trout Back lettuce.",
+    "Category": "Cooking",
+    "Edibility": 200,
+    "EdibleIsDrink": false,
+	"EdibleBuffs": {
+		"Farming": 5,
+		"Fishing": 5,
+		"Mining": 0,
+		"Luck": 5,
+		"Foraging": 5,
+		"MaxStamina": 500,
+		"MagnetRadius": 100,
+		"Speed": 5,
+		"Defense": 0,
+		"Attack": 0,
+		"Duration": 2000,
+	},
+    "Price": 11360,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+			"Object": "Dwarven Sourdough",
+			"Count": 1,
+			},
+			{
+			"Object": "Dirt Dragon Mayonnaise",
+			"Count": 1,
+			},
+			{
+			"Object": "Cheese",
+			"Count": 1,
+			},
+			{
+			"Object": "Flashy Trout Back",
+			"Count": 1,
+			},
+			{
+			"Object": "Artichoke",
+			"Count": 1,
+			},
+		],
+		"IsDefault": false,
+    },
+}

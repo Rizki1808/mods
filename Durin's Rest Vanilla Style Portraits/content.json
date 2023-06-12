@@ -1,0 +1,41 @@
+﻿{
+	"Format": "1.23",
+
+	"Changes": [
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Durin",
+		"FromFile": "assets/Durin.png"
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Tenebra",
+		"FromFile": "assets/Tenebra.png"
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Arwen",
+		"FromFile": "assets/Arwen.png"
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Balor",
+		"FromFile": "assets/Balor.png"
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Glorgan",
+		"FromFile": "assets/Glorgan.png"
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Edrus",
+		"FromFile": "assets/Edrus.png"
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Banker",
+		"FromFile": "assets/Banker.png"
+		},
+	]
+}

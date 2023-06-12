@@ -1,0 +1,8 @@
+﻿{
+	"Name": "Dwarven Ale",
+	"Description": "Strong like the dwarves that make it, these ales are around 9% ABV. Distinguished by their light color and smooth flavor with hints of honey.",
+	"Category": "ArtisanGoods",
+	"Edibility": 35,
+	"EdibleIsDrink": true,
+	"Price": 1940,
+}

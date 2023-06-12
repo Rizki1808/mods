@@ -1,0 +1,20 @@
+{
+  "Name": "[STF] Willy Shop Fish",
+  "Author": "LoganDoidao",
+  "Version": "1.4.0",
+  "Description": "Willy sells fish.",
+  "UniqueID": "LoganDoidao.WillyShopFish",
+  "MinimumApiVersion": "3.4.0",
+  "UpdateKeys": [ "Nexus:10526" ],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework",
+	"MinimumVersion": "1.0.5"
+  }, 
+  "Dependencies": [
+{
+"UniqueID": "LoganDoidao.ClintShopOverhaul",
+"MinimumVersion": "1.4.0", 
+"IsRequired": true
+}
+] 
+}

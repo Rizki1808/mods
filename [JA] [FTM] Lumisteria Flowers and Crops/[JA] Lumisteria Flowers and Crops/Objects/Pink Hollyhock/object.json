@@ -1,0 +1,50 @@
+{
+    "Name": "Pink Hollyhock",
+    "Description": "A flower of a delicate pink.",
+    "Category": "Flower",
+    "Edibility": 12,
+    "Price": 60,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": 
+    {
+		"Love": ["George", "Lewis"],
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"],
+		"Dislike": ["Sebastian"],
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "분홍 접시꽃",
+        "de": "Rosa Stockrosen",
+        "fr": "Rose trémière rose",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Розовая мальва",
+         // "tr": "",
+        "zh": "粉红蜀葵",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "섬세한 분홍색의 아름다운 꽃.",
+        "de": "Eine Blume von einer zarten Rosa.",
+        "fr": "Une fleur d'un rose délicat.",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Цветок нежного розового цвета.",
+         // "tr": "",
+        "zh": "粉红色的花",
+    },
+    "ContextTags": [
+        "flower_item",
+        "color_pink",
+		"season_spring",
+		"season_summer",
+		"season_fall",
+    ]
+}

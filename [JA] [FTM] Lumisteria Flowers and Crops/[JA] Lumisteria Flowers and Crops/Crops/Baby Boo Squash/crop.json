@@ -1,0 +1,52 @@
+{
+    "Name": "Baby Boo Squash",
+    "Product": "Baby Boo Squash",
+    "SeedName": "Baby Boo Squash Seeds",
+    "SeedDescription": "Plant them in fall. Take 14 days to produce, and continue to produce after that",
+    "Type": "Vegetable",
+    "Seasons": ["fall"],
+    "Phases": [2, 2, 3, 3, 4],
+    "RegrowthPhase": 5,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 2,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+
+    "SeedPurchasePrice": 88,
+    "SeedPurchaseRequirements": [
+    	"y 3",
+],
+    "SeedNameLocalization":
+    {
+        //"es": "",
+        "ko": "베이비 부 스쿼시 씨앗",
+        "de": "Baby Boo Kürbiskerne",
+		"fr": "Graines de courge Baby Boo",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "i",
+        "ru": "Семена декоративной тыквы 'Крошка Бу'",
+        //"tr": "",
+        "zh": "小西葫芦种子",
+    },
+    "SeedDescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "가을에 심는다. 성장하는 데 14일이 걸리며, 자란 후 계속 수확할 수 있다.",
+        "de": "´Sähen im herbst. Es brauch 14 Tage für die erste Ernte und kann danach noch weiter geerntet werden.",
+		"fr": "À planter en automne. Il faudra 14 jours pour arriver à maturité. Continuera de produire après cela.",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "i",
+        "ru": "Сажайте осенью. Вырастает через 14 дней и продолжает давать урожай после первого сбора.",
+        //"tr": "",
+        "zh": "在秋天种植它们，需要14天才能成熟，然后可以继续收获",
+    }
+}

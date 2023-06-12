@@ -1,0 +1,20 @@
+{
+  "events": [
+    {
+      "name": "Spying on Caroline.",
+      "location": "forest",
+      "eventId": "1000013",
+      "night": true,
+      "mail": "null"
+    },
+
+    {
+      "name": "Abigail meet the Witch.",
+      "location": "farmhouse",
+      "eventId": "4383992",
+      "night": true,
+      "mail": "null"
+    },
+
+  ]
+}

@@ -1,0 +1,8 @@
+﻿{
+	"Name": "Dwarven Whiskey",
+	"Description": "Malty and full of peaty, smokey flavors. Drink in moderation.",
+	"Category": "ArtisanGoods",
+	"Edibility": 50,
+	"EdibleIsDrink": true,
+	"Price": 2280,
+}

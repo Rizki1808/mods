@@ -1,0 +1,20 @@
+{
+  "Name": "[STF] Robin Shop Trees",
+  "Author": "LoganDoidao",
+  "Version": "1.6.0",
+  "Description": "Robin sells things related to trees.",
+  "UniqueID": "LoganDoidao.RobinShopTrees",
+  "MinimumApiVersion": "3.4.0",
+  "UpdateKeys": [ "Nexus:10527" ],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework",
+	"MinimumVersion": "1.0.5"
+  }, 
+    "Dependencies": [
+   {
+  "UniqueID": "LoganDoidao.RobinShopOverhaul",
+  "MinimumVersion": "1.6.0", 
+"IsRequired": true 
+   }
+  ] 
+}

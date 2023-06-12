@@ -1,0 +1,8 @@
+﻿{
+	"Name": "Dwarven Vodka",
+	"Description": "The purest of all spirits, pairs with almost anything. Drink in moderation.",
+	"Category": "ArtisanGoods",
+	"Edibility": 50,
+	"EdibleIsDrink": true,
+	"Price": 2400,
+}

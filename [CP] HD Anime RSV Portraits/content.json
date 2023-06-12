@@ -1,0 +1,484 @@
+{
+  "Format": "1.28.0",
+  "ConfigSchema": {
+    "Alissa_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Flor_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Blair_HD_portrait": {
+      "AllowValues": "New,Old,Off",
+      "Default": "New"
+    },
+    "Ysabelle_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Kiarra_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Maddie_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Jio_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Paula_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Daia_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Corine_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Shiro_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Jeric_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Ian_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Raeriyala_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Irene_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "June_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Faye_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Belinda_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    }
+  },
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Mods/HDAnimeRSVPortraits/Alissa",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": { "Alissa_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Alissa",
+      "FromFile": "assets/Size256.json",
+      "When": { "Alissa_HD_portrait": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Alissa",
+      "Entries": {
+        "Portrait": "Mods/HDAnimeRSVPortraits/{{TargetWithoutPath}}"
+      },
+      "When": { "Alissa_HD_portrait": "true" }
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/HDAnimeRSVPortraits/Flor",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": { "Flor_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Flor",
+      "FromFile": "assets/Size256.json",
+      "When": { "Flor_HD_portrait": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Flor",
+      "Entries": {
+        "Portrait": "Mods/HDAnimeRSVPortraits/{{TargetWithoutPath}}"
+      },
+      "When": { "Flor_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDAnimeRSVPortraits/Blair",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": { "Blair_HD_portrait": "New" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Blair",
+      "FromFile": "assets/Size256.json",
+      "When": { "Blair_HD_portrait": "New" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Blair",
+      "Entries": {
+        "Portrait": "Mods/HDAnimeRSVPortraits/{{TargetWithoutPath}}"
+      },
+      "When": { "Blair_HD_portrait": "New" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDAnimeRSVPortraits/Blair",
+      "FromFile": "assets/Blair_Old.png",
+      "When": { "Blair_HD_portrait": "Old" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Blair",
+      "FromFile": "assets/Size256.json",
+      "When": { "Blair_HD_portrait": "Old" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Blair",
+      "Entries": {
+        "Portrait": "Mods/HDAnimeRSVPortraits/{{TargetWithoutPath}}"
+      },
+      "When": { "Blair_HD_portrait": "Old" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDAnimeRSVPortraits/Ysabelle",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": { "Ysabelle_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Ysabelle",
+      "FromFile": "assets/Size256.json",
+      "When": { "Ysabelle_HD_portrait": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Ysabelle",
+      "Entries": {
+        "Portrait": "Mods/HDAnimeRSVPortraits/{{TargetWithoutPath}}"
+      },
+      "When": { "Ysabelle_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDAnimeRSVPortraits/Kiarra",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": { "Kiarra_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Kiarra",
+      "FromFile": "assets/Size256.json",
+      "When": { "Kiarra_HD_portrait": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Kiarra",
+      "Entries": {
+        "Portrait": "Mods/HDAnimeRSVPortraits/{{TargetWithoutPath}}"
+      },
+      "When": { "Kiarra_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDAnimeRSVPortraits/Maddie, Mods/HDAnimeRSVPortraits/Maddie_Ariel, Mods/HDAnimeRSVPortraits/Maddie_Elsa, Mods/HDAnimeRSVPortraits/Maddie_Lab, Mods/HDAnimeRSVPortraits/Maddie_Merida",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": { "Maddie_HD_portrait": "true" }
+    },
+
+    {
+      "Action": "EditImage",
+      "Target": "Mods/HDAnimeRSVPortraits/Maddie",
+      "FromFile": "assets/Maddie_Lab.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "Maddie_HD_portrait": "true",
+        "LocationName": "Custom_Ridgeside_AguarLab"
+      }
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Maddie, Mods/HDPortraits/Maddie_Ariel, Mods/HDPortraits/Maddie_Elsa, Mods/HDPortraits/Maddie_Lab, Mods/HDPortraits/Maddie_Merida",
+      "FromFile": "assets/Size256.json",
+      "When": { "Maddie_HD_portrait": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Maddie, Mods/HDPortraits/Maddie_Ariel, Mods/HDPortraits/Maddie_Elsa, Mods/HDPortraits/Maddie_Lab, Mods/HDPortraits/Maddie_Merida",
+      "Entries": {
+        "Portrait": "Mods/HDAnimeRSVPortraits/{{TargetWithoutPath}}"
+      },
+      "When": { "Maddie_HD_portrait": "true" }
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/HDAnimeRSVPortraits/Jio, Mods/HDAnimeRSVPortraits/Jio_Unmask",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": { "Jio_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Jio, Mods/HDPortraits/Jio_Unmask",
+      "FromFile": "assets/Size256.json",
+      "When": { "Jio_HD_portrait": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Jio, Mods/HDPortraits/Jio_Unmask",
+      "Entries": {
+        "Portrait": "Mods/HDAnimeRSVPortraits/{{TargetWithoutPath}}"
+      },
+      "When": { "Jio_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDAnimeRSVPortraits/Paula",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": { "Paula_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Paula",
+      "FromFile": "assets/Size256.json",
+      "When": { "Paula_HD_portrait": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Paula",
+      "Entries": {
+        "Portrait": "Mods/HDAnimeRSVPortraits/{{TargetWithoutPath}}"
+      },
+      "When": { "Paula_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDAnimeRSVPortraits/Daia, Mods/HDAnimeRSVPortraits/Daia_Party",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": { "Daia_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Daia, Mods/HDPortraits/Daia_Party",
+      "FromFile": "assets/Size256.json",
+      "When": { "Daia_HD_portrait": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Daia, Mods/HDPortraits/Daia_Party",
+      "Entries": {
+        "Portrait": "Mods/HDAnimeRSVPortraits/{{TargetWithoutPath}}"
+      },
+      "When": { "Daia_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDAnimeRSVPortraits/Corine, Mods/HDAnimeRSVPortraits/Corine_Ninja",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": { "Corine_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Corine, Mods/HDPortraits/Corine_Ninja",
+      "FromFile": "assets/Size256.json",
+      "When": { "Corine_HD_portrait": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Corine",
+      "Entries": {
+        "Portrait": "Mods/HDAnimeRSVPortraits/{{TargetWithoutPath}}"
+      },
+      "When": { "Corine_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDAnimeRSVPortraits/Shiro",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": { "Shiro_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Shiro",
+      "FromFile": "assets/Size256.json",
+      "When": { "Shiro_HD_portrait": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Shiro",
+      "Entries": {
+        "Portrait": "Mods/HDAnimeRSVPortraits/{{TargetWithoutPath}}"
+      },
+      "When": { "Shiro_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDAnimeRSVPortraits/Jeric",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": { "Jeric_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Jeric",
+      "FromFile": "assets/Size256.json",
+      "When": { "Jeric_HD_portrait": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Jeric",
+      "Entries": {
+        "Portrait": "Mods/HDAnimeRSVPortraits/{{TargetWithoutPath}}"
+      },
+      "When": { "Jeric_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDAnimeRSVPortraits/Ian",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": { "Ian_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Ian",
+      "FromFile": "assets/Size256.json",
+      "When": { "Ian_HD_portrait": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Ian",
+      "Entries": {
+        "Portrait": "Mods/HDAnimeRSVPortraits/{{TargetWithoutPath}}"
+      },
+      "When": { "Ian_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDAnimeRSVPortraits/Raeriyala",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": { "Raeriyala_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Raeriyala",
+      "FromFile": "assets/Size256.json",
+      "When": { "Raeriyala_HD_portrait": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Raeriyala",
+      "Entries": {
+        "Portrait": "Mods/HDAnimeRSVPortraits/{{TargetWithoutPath}}"
+      },
+      "When": { "Raeriyala_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDAnimeRSVPortraits/Irene, Mods/HDAnimeRSVPortraits/Irene_Chef",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": { "Irene_HD_portrait": "true" }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/HDAnimeRSVPortraits/Irene",
+      "FromFile": "assets/Irene_Chef.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "Irene_HD_portrait": "true",
+        "LocationName": "Custom_Ridgeside_PurpleMansion",
+        "HasSeenEvent |contains=75160431": false
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Irene, Mods/HDPortraits/Irene_Chef",
+      "FromFile": "assets/Size256.json",
+      "When": { "Irene_HD_portrait": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Irene, Mods/HDPortraits/Irene_Chef",
+      "Entries": {
+        "Portrait": "Mods/HDAnimeRSVPortraits/{{TargetWithoutPath}}"
+      },
+      "When": { "Irene_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDAnimeRSVPortraits/June",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": { "June_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/June",
+      "FromFile": "assets/Size256.json",
+      "When": { "June_HD_portrait": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/June",
+      "Entries": {
+        "Portrait": "Mods/HDAnimeRSVPortraits/{{TargetWithoutPath}}"
+      },
+      "When": { "June_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDAnimeRSVPortraits/Faye",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": { "Faye_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Faye",
+      "FromFile": "assets/Size256.json",
+      "When": { "Faye_HD_portrait": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Faye",
+      "Entries": {
+        "Portrait": "Mods/HDAnimeRSVPortraits/{{TargetWithoutPath}}"
+      },
+      "When": { "Faye_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDAnimeRSVPortraits/Belinda",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": { "Belinda_HD_portrait": "true" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Belinda",
+      "FromFile": "assets/Size256.json",
+      "When": { "Belinda_HD_portrait": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Belinda",
+      "Entries": {
+        "Portrait": "Mods/HDAnimeRSVPortraits/{{TargetWithoutPath}}"
+      },
+      "When": { "Belinda_HD_portrait": "true" }
+    }
+  ]
+}

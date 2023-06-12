@@ -1,0 +1,8 @@
+﻿{
+	"Name": "Dwarven Amber Lager",
+	"Description": "Mid strength around 6% ABV, Dwarven Amber Lagers are the beer most people think of first. Distinguished by their medium body and caramel-malt character.",
+	"Category": "ArtisanGoods",
+	"Edibility": 35,
+	"EdibleIsDrink": true,
+	"Price": 1940,
+}

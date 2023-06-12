@@ -1,0 +1,9 @@
+﻿{
+	"Name": "Rested Juniper Tree",
+	"Product": "Rested Juniper Berry",
+	"SaplingName": "Rested Juniper Sapling",
+	"SaplingDescription": "Takes 28 days to produce a mature Rested Juniper Tree. Ready to harvest in the winter. Only grows if the 8 surrounding tiles are empty.",
+	"Season": "winter",
+	"SaplingPurchasePrice": 1500,
+	"SaplingPurchaseFrom": "null",
+}

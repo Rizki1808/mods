@@ -1,0 +1,17 @@
+{
+    "Name": "Romanceable Scarlett",
+    "Author": "Pseudodiego",
+    "Version": "1.0",
+    "Description": "Xtardew Marrigeable Scarlett.",
+    "UniqueID": "Pseudodiego.XtardewValleyScarlett",
+    "UpdateKeys": [""],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+      "Dependencies": [
+   {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false
+   }
+]
+ }

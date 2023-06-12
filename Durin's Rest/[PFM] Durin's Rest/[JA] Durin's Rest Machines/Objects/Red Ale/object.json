@@ -1,0 +1,8 @@
+﻿{
+	"Name": "Dwarven Red Ale",
+	"Description": "Mid-range in strength around 6% ABV but maintain a crisp finish. Distinguished by their deep red color and hoppy, buttery, and sweet flavors.",
+	"Category": "ArtisanGoods",
+	"Edibility": 35,
+	"EdibleIsDrink": true,
+	"Price": 1940,
+}

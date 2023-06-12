@@ -1,0 +1,247 @@
+{ "Format": "1.23",
+  
+	
+ "CustomLocations": [  
+{    "Name": "Custom_SchoolHouse",
+    "FromMapFile": "assets/RundownSchoolHouse.tmx",
+    "MigrateLegacyNames": [ "SchoolHouse" ]},], 
+  
+
+  
+  "Changes": [  	  
+	  
+	     {   "Action": "Load",
+            "Target": "Maps/Spring_littleschoolhouse",
+            "FromFile": "Tilesheet/Spring_littleschoolhouse.png"        },	
+		
+        {   "Action": "Load",
+            "Target": "Maps/Summer_littleschoolhouse",
+            "FromFile": "Tilesheet/Summer_littleschoolhouse.png"        },	
+		
+        {   "Action": "Load",
+            "Target": "Maps/Fall_littleschoolhouse",
+            "FromFile": "Tilesheet/Fall_littleschoolhouse.png"        },
+		
+        {   "Action": "Load",
+            "Target": "Maps/Winter_littleschoolhouse",
+            "FromFile": "Tilesheet/Winter_littleschoolhouse.png"        },	
+	 
+{	 "Action": "EditData",
+     "Target": "Strings/StringsFromMaps",
+     "Entries": { 
+		 "School.1":  "{{i18n:School.1}}",
+	  	 "School.2":  "{{i18n:School.2}}",
+	  	 "School.3":  "{{i18n:School.3}}",
+	  	 "School.4":  "{{i18n:School.4}}",
+	  	 "School.5":  "{{i18n:School.5}}",
+	  	 "School.6":  "{{i18n:School.6}}",
+	  	 "Desk.1":  "{{i18n:Desk.1}}",
+	  	 "Desk.2":  "{{i18n:Desk.2}}",
+	  	 "Desk.3":  "{{i18n:Desk.3}}",
+	  	 "Desk.4":  "{{i18n:Desk.4}}",
+	  	 "Desk.5":  "{{i18n:Desk.5}}",
+	  	 "Desk.6":  "{{i18n:Desk.6}}",
+	  	 "Desk.7":  "{{i18n:Desk.7}}",
+	  	 "Desk.8":  "{{i18n:Desk.8}}",
+	  	 "Desk.9":  "{{i18n:Desk.9}}",
+	  	 "Desk.10": "{{i18n:Desk.10}}",
+	  	 "Desk.11": "{{i18n:Desk.11}}",
+	  	 "Desk.12": "{{i18n:Desk.12}}",
+	  	 "Desk.13": "{{i18n:Desk.13}}",
+	  	 "Desk.14": "{{i18n:Desk.14}}",
+	  	 "Desk.15": "{{i18n:Desk.15}}",
+	  	 "Desk.16": "{{i18n:Desk.16}}",
+	  	 "Desk.17": "{{i18n:Desk.17}}",
+	  	 "Desk.18": "{{i18n:Desk.18}}"}},	  
+
+{   "Action": "EditMap",
+     "Target": "Maps/Custom_SchoolHouse",	 
+     "FromFile": "assets/SchoolHouse.tmx",
+	"PatchMode": "Replace",
+     "When": {"HasSeenEvent": "9695001"},},
+
+
+
+{   "Action": "EditMap",
+    "Target": "Maps/Custom_SchoolHouse",
+    "MapProperties": { 
+		"DayTiles": "Front 3 1 256 Front 10 1 256 Front 17 1 256 Front 22 1 256 Front 3 2 288 Front 10 2 288 Front 17 2 288 Front 22 2 288 Front 6 1 827 Front 2 10 827 Front 19 1 827 Front 4 8 809 Front 1 15 809",
+		"NightTiles": "Front 3 1 1253 Front 10 1 1253 Front 17 1 1253 Front 22 1 1253 Front 3 2 1285 Front 10 2 1285 Front 17 2 1285 Front 22 2 1285 Front 6 1 826 Front 2 10 826 Front 19 1 826 Front 4 8 480 Front 1 15 480" ,
+		"AmbientLight" : "75 75 75"},	
+     "When": {"HasSeenEvent": "9695001", }},
+
+{   "Action": "EditMap",
+     "Target": "Maps/Town",	 
+     "FromFile": "assets/TownRundownSchoolHouse.tmx",
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },},
+
+{   "Action": "EditMap",
+     "Target": "Maps/Town",
+     "FromFile": "assets/TownSchoolHouse.tmx",
+	"When": {"HasSeenEvent": "9695001"},
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },},	 
+ 
+
+
+//Festivals
+{   "Action": "EditMap",
+     "Target": "Maps/Town-Halloween",
+	 "When": {  "DayEvent": "spirit's eve"},
+     "FromFile": "assets/TownRundownSchoolHouseSPIRITS.tmx",
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },},
+
+{   "Action": "EditMap",
+     "Target": "Maps/Town-Halloween",
+     "FromFile": "assets/TownSchoolHouseSPIRITS.tmx",
+	"When": {"HasSeenEvent": "9695001", "DayEvent": "spirit's eve"},
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },}, 
+
+
+
+
+
+
+
+//Special Orders and the following events
+{   "Action": "EditData",
+	 "Target": "Data/Mail",
+	 "Entries": { "SchoolRepaired": "{{i18n:SchoolRepaired}}"},},
+
+{   "Action": "EditData",
+	 "Target": "Data/Events/Farm",
+	 "Entries": {	 "9695001/F /t 1500 2600/w sunny/*n SchoolRepaired": "continue/-500 -500/farmer 6 24 0 Robin 7 18 2/skippable/pause 1000/speak Robin \"{{i18n:Event1}}\"/pause 300/end" },},
+
+{  "Action": "EditData",
+    "Target": "Data/Events/Town", 
+	"Entries": { "9695002/F /t 610 1500/w sunny/e 9695001": "sweet/12 12/farmer 9 15 0 Penny 10 15 0 Robin 11 16 0 Lewis 12 16 0 Jas 24 12 2 Vincent 16 11 1/skippable/animate Jas false true 100 16 17 18 19/animate Vincent false true 550 0 4 8 16/pause 1500/speak Penny \"{{i18n:Event2.1}}\"/pause 500/speak Penny \"{{i18n:Event2.2}}\"/pause 250/speak Lewis \"{{i18n:Event2.3}}\"/pause 250/speak Robin \"{{i18n:Event2.4}}\"/pause 500/speak Lewis \"{{i18n:Event2.5}}\"/end"} ,},
+
+{ "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+  "Lewis9695": {
+    "Name": "{{i18n:HigherEducation}}",
+    "Requester": "Lewis",
+    "Duration": "Month",
+    "Repeatable": "False",
+    "RequiredTags": "",
+    "OrderType": "",
+    "SpecialRule": "",
+    "Text": "{{i18n:Text1}}",
+    "ItemToRemoveOnEnd": null,
+    "MailToRemoveOnEnd": null,
+    "RandomizedElements": null,
+    "Objectives": [	   {
+        "Type": "Donate",
+        "Text": "{{i18n:Text2}}",
+        "RequiredCount": "50",
+        "Data": {
+          "DropBox": "Woodpile",
+          "DropBoxGameLocation": "Custom_RundownSchoolHouse",
+          "DropBoxIndicatorLocation": "4 6",
+          "AcceptedContextTags": "item_hardwood"  }   }, 
+	{
+        "Type": "Donate",
+        "Text": "{{i18n:Text3}}",
+        "RequiredCount": "250",
+        "Data": {
+          "DropBox": "Woodpile",
+          "DropBoxGameLocation": "Custom_RundownSchoolHouse",
+          "DropBoxIndicatorLocation": "4 6",
+          "AcceptedContextTags": "item_wood"  }   }, 
+	
+	{   "Type": "Donate",
+        "Text": "{{i18n:Text4}}",
+        "RequiredCount": "13",
+        "Data": {
+          "DropBox": "Woodpile",
+          "DropBoxGameLocation": "Custom_RundownSchoolHouse",
+          "DropBoxIndicatorLocation": "4 6",
+          "AcceptedContextTags": "item_cloth"  }   },
+	
+	{   "Type": "Donate",
+        "Text": "{{i18n:Text5}}",
+        "RequiredCount": "2",
+        "Data": {
+          "DropBox": "Woodpile",
+          "DropBoxGameLocation": "Custom_RundownSchoolHouse",
+          "DropBoxIndicatorLocation": "4 6",
+          "AcceptedContextTags": "item_gold_bar"  }   },
+	],			
+    "Rewards": [
+      { "Type": "Mail",
+        "Data": {
+          "MailReceived": "SchoolRepaired",
+		  "Host": "true",
+          "NoLetter": "false"        }      },
+      { "Type": "Friendship",
+        "Data": {}      }    ]  }, },}, 
+
+
+
+//Jas
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Jas",
+	 "Entries": {     "Tue": "720 Custom_SchoolHouse 20 8 3/730 Custom_SchoolHouse 19 8 3 jas_read/1130 Town 24 12 jas_jumprope/1250 Custom_SchoolHouse 20 8 3/1300 Custom_SchoolHouse 19 8 3 jas_read/1550 Town 16 91 0/1750 AnimalShop 1 7 3 jas_sleep",     },
+            	"When": {"HasSeenEvent": "9695002", },},
+
+//Vincent
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Vincent",
+	 "Entries": {     "Tue": "800 Custom_SchoolHouse 8 11 3 vincent_read_right/1130 Town 16 11 1 square_5_3/1250 Custom_SchoolHouse 8 11 3 vincent_read_right/1550 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 3 vincent_sleep",     
+	 "winter_16": "800 Custom_SchoolHouse 8 11 3 vincent_read_right/1130 Town 16 11 1 square_5_3/1250 Custom_SchoolHouse 8 11 3 vincent_read_right/1540 Town 15 90 1/1630 Beach 19 24 2 \"Strings\\schedules\\Vincent:winter_16.000\"/2330 SamHouse 8 22 3 vincent_sleep",  	 },
+            	"When": {"HasSeenEvent": "9695002", },},
+
+//Penny
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Penny",
+	 "Entries": {     "Tue": "620 Trailer 6 5 0/700 Town 10 13 2/940 Custom_SchoolHouse 15 7 2/1020 Custom_SchoolHouse 8 10 2/1040 Custom_SchoolHouse 15 7 2/1140 Town 12 13 1/1310 Custom_SchoolHouse 15 7 2/1420 Custom_SchoolHouse 19 10 0/1500 Custom_SchoolHouse 15 7 2/1550 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
+		 "marriageJob": "700 Town 10 13 2/930 Custom_SchoolHouse 15 7 2 \"Strings\\schedules\\Penny:marriageJob.000\"/1130 Town 12 13 1/1300 Custom_SchoolHouse 15 7 2 \"Strings\\schedules\\Penny:marriageJob.000\"/1550 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 BusStop -1 23 3",    },
+            	"When": {"HasSeenEvent": "9695002"},},  
+
+
+
+
+//Leo - I need to keep playing normally and not get distracted with modding. I only just meet the kid
+
+
+
+
+//Keahi RSV
+	{
+		"Action": "EditData",
+		"Target": "Characters/Schedules/Keahi",
+		"Entries": { "Tue": "0 Custom_Ridgeside_RidgesideVillage 100 53/610 Custom_SchoolHouse 23 17 3/620 Custom_SchoolHouse 22 16 3 keahi_read/1130 Town 19 14 2 keahi_dance/1250 Custom_SchoolHouse 23 17 3/1300 Custom_SchoolHouse 22 16 3 keahi_read/1550 Custom_Ridgeside_RidgesideVillage 98 38 2/1800 Custom_Ridgeside_PikaHouse 7 10 3/2200 Custom_Ridgeside_PikaHouse 26 5 0 keahi_sleep"	},
+       	"When": {"HasSeenEvent": "9695002", "HasMod": "Rafseazz.RSVCP"},},  	
+
+//Trinnie RSV
+	{
+		"Action": "EditData",
+		"Target": "Characters/Schedules/Trinnie",
+		"Entries": { "Tue": "0 Custom_Ridgeside_RidgesideVillage 98 57/610 Custom_SchoolHouse 11 13 1 trinnie_read/1140 Town 9 17 1 trinnie_jump/1250 Custom_SchoolHouse 11 13 1 trinnie_read/1550 Custom_Ridgeside_BertHouse 13 5 3/2100 Custom_Ridgeside_BertHouse2ndFloor 18 5 0 trinnie_sleep"},
+       	"When": {"HasSeenEvent": "9695002",  "HasMod": "Rafseazz.RSVCP"},},  
+
+	
+//Yuuma RSV
+	{
+		"Action": "EditData",
+		"Target": "Characters/Schedules/Yuuma",
+		"Entries": { "Fri": "610 Custom_SchoolHouse 4 4 2 yuuma_read/1130 Town 13 18 square_2_2_0/1240 Custom_SchoolHouse 4 4 2 yuuma_read/1400 Hospital 13 17 1/1600 Custom_Ridgeside_ShiroHouse 3 5 0/2000 Custom_Ridgeside_ShiroHouse 14 5 0 yuuma_sleep",},
+       	"When": {"HasSeenEvent": "9695002", "HasMod": "Rafseazz.RSVCP"},},  	
+	
+
+//Desks
+
+  {	 "Action": "EditData",
+     "Target": "Strings/StringsFromMaps",
+     "Entries": { 	 "Desk.4": "{{i18n:Deskrsv.4}}",
+	  	 			 "Desk.12": "{{i18n:Deskrsv.12}}"},       	
+	 "When": {"HasMod": "Rafseazz.RSVCP"},},		
+
+
+
+  
+  ]}

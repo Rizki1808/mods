@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Durbloon",
+    "Description": "The currency for Durin's Rest.",
+    "Category": "Crafting",
+    "Price": 5,
+    "Recipe": {
+        "ResultCount": 100,
+        "Ingredients": [
+			{
+			"Object": "Durinium",
+			"Count": 1,
+			},
+		],
+		"IsDefault": false,
+    },
+}

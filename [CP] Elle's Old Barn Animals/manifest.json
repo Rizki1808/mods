@@ -1,0 +1,12 @@
+{
+   "Name": "Elle's Old Barn Animals",
+   "Author": "Elle/Junimods",
+   "Version": "1.1.1",
+   "Description": "A CP replacement for all your barn animals!",
+   "UniqueID": "Elle.OldBarnAnimals",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:1960" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

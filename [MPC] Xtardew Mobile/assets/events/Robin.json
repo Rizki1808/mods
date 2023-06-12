@@ -1,0 +1,34 @@
+{
+  "events": [
+    {
+      "name": "At Robin's home.",
+      "location": "ScienceHouse",
+      "eventId": "428912985",
+      "night": false,
+      "mail": "null"
+    },
+    {
+      "name": "At Grandpa's Shed.",
+      "location": "Custom_GrandpasShedRuins",
+      "eventId": "4373892",
+      "night": false,
+      "mail": "null"
+    },
+    {
+      "name": "Surprised by Demetrius.",
+      "location": "farmhouse",
+      "eventId": "77442423",
+      "night": true,
+      "mail": "null"
+    },
+    {
+      "name": "First time with Robin.",
+      "location": "Mountain",
+      "eventId": "3826934",
+      "night": true,
+      "mail": "null"
+    },
+
+
+  ]
+}

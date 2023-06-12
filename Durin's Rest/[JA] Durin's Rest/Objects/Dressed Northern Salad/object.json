@@ -1,0 +1,35 @@
+﻿{
+    "Name": "Dressed Northern Salad",
+    "Description": "A delicious fruity Dwarven Vinaigrette to compliment five servings of vegetables all packed onto one delicious plate!",
+    "Category": "Cooking",
+    "Edibility": 55,
+    "EdibleIsDrink": false,
+	"EdibleBuffs": {
+		"Farming": 3,
+		"Fishing": 0,
+		"Mining": 0,
+		"Luck": 0,
+		"Foraging": 3,
+		"MaxStamina": 0,
+		"MagnetRadius": 0,
+		"Speed": 0,
+		"Defense": 0,
+		"Attack": 0,
+		"Duration": 600,
+	},
+    "Price": 4250,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+			"Object": "Basic Northern Salad",
+			"Count": 1,
+			},
+			{
+			"Object": "Dwarven Vinaigrette",
+			"Count": 1,
+			},
+		],
+		"IsDefault": false,
+    },
+}

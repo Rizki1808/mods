@@ -1,0 +1,25 @@
+{
+  "events": [
+    {
+      "name": "Watching a movie with Sophia.",
+      "location": "Custom_SophiaHouse",
+      "eventId": "17732",
+      "night": true,
+      "mail": "null"
+    },
+    {
+      "name": "Spying on Caroline and the Witch.",
+      "location": "Forest",
+      "eventId": "17734",
+      "night": false,
+      "mail": "null"
+    },
+    {
+      "name": "Night with Sophia and Scarlett.",
+      "location": "Custom_SophiaHouse",
+      "eventId": "3724929",
+      "night": true,
+      "mail": "null"
+    },
+  ]
+}

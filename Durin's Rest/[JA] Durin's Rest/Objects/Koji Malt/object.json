@@ -1,0 +1,21 @@
+﻿{
+    "Name": "Koji Malt",
+    "Description": "The Koji mold breaks down the starches in the rice releasing the sugars locked within (saccharification) to produce this unique 'malt'.",
+    "Category": "Cooking",
+    "Edibility": -300,
+    "Price": 400,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+            "Object": "Rice",
+            "Count": 1,
+			},
+			{
+            "Object": "Koji",
+            "Count": 1,
+			},
+		],
+		"IsDefault": false,
+    },
+}

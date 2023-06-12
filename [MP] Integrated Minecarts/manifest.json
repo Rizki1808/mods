@@ -1,0 +1,48 @@
+﻿{
+  "Name": "[MP] Integrated Minecarts",
+  "Author": "Jibb",
+  "Version": "2.3.2",
+  "Description": "Content Pack for Minecart Patcher",
+  "UniqueID": "jibb.minecarts",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:11881"],
+  "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+  "Dependencies":
+	[
+            {
+                "UniqueID": "mod.kitchen.minecartpatcher",
+                "IsRequired": true,
+            },
+            {
+                "UniqueID": "Rafseazz.RSVCP",
+                "IsRequired": false,
+            },
+			{
+                "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+                "IsRequired": false,
+            },
+			{
+                "UniqueID": "unclearya.beachminecart",
+                "IsRequired": false,
+            },
+			{
+                "UniqueID": "unclearya.farmcaveminecart",
+                "IsRequired": false,
+            },
+			{
+                "UniqueID": "DaisyNiko.SVR3",
+                "IsRequired": false,
+            },
+//			{
+//				"UniqueID": "Lemurkat.JacobEloise.CP",
+//               "IsRequired": false,
+//            },		
+			{
+				"UniqueID": "DaisyNiko.OasisGreenhouse",
+                "IsRequired": false,
+            },				
+	]
+}
+

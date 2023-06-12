@@ -1,0 +1,123 @@
+{
+"VanillaShops":[
+{
+"ShopName":"PierreShop",
+"AddStockAboveVanilla":"False",
+"DefaultSellPriceMultiplier": 4.0,
+"PriceMultiplierWhen": {
+"0.5": [ "f Pierre 2000" ],
+"0.75": [ "f Pierre 1000" ],
+"0.9": [ "f Pierre 500" ], },
+"ItemStocks":[
+{
+"ItemType":"Object",
+"StockPrice": "150",
+"ItemIDs":[ 
+//Tea Leaves 
+815, ],
+"When": [ "f Caroline 500" ], }, 
+
+{
+"ItemType":"Object",
+"StockPrice": "1500",
+"ItemIDs":[ 
+//Tea Sappling 
+251, ],
+"When": [ "f Caroline 750" ], }, 
+
+{
+"ItemType": "Object",
+"StockPrice": "500",
+"ItemNames": [ "Sprinkler" ], },
+
+{
+"ItemType": "Object",
+"StockPrice": "1000",
+"ItemNames": [ "Quality Sprinkler" ], 
+"When": [ "SkillLevel farming 4" ], },
+
+{
+"ItemType": "Object",
+"StockPrice": "3000",
+"ItemNames": [ "Iridium Sprinkler" ],
+"When": [ "SkillLevel farming 7" ], 
+"Stock":10 },
+
+{
+"ItemType": "BigCraftable",
+"StockPrice": "1000",
+"ItemNames": [ "Scarecrow" ],
+"Stock":10 }, 
+
+{
+"ItemType": "BigCraftable",
+"StockPrice": "15000",
+"ItemNames": [ "Deluxe Scarecrow" ],
+"When": [ "SkillLevel farming 8" ],
+"Stock":4 },
+
+{
+"ItemType": "BigCraftable",
+"StockPrice": "1500",
+"ItemNames": [ "Seed Maker" ],  
+"When": [ "SkillLevel farming 4" ], }, 
+
+{
+"ItemType": "BigCraftable",
+"StockPrice": "1000",
+"ItemNames": [ "Garden Pot" ], 
+"When": [ "SkillLevel farming 6" ],     
+"Stock":10 }, 
+
+{
+//Mixed Seeds
+"ItemType": "Object",
+"StockPrice": "15",
+"ItemIDs": [ 770, ], },
+ 
+{
+//Coffee Bean
+"ItemType": "Object",
+"StockPrice": "30",
+"ItemIDs": [ 433, ], 
+"When":[ "!z spring" , "!z summer" ], }, 
+
+{
+//Ancient Seeds
+"ItemType": "Object",
+"StockPrice": "150",
+"ItemIDs": [ 499, ], 
+"When":[ "!z spring" , "!z summer" , "!z fall" ], },
+
+{
+//Rare Seed
+"ItemType": "Object",
+"StockPrice": "500",
+"ItemIDs": [ 347, ], 
+"When":[ "!z fall" ], }, 
+
+{
+"ItemType": "Object",
+"ItemNames": [ "Spring Seeds" ],
+"StockPrice": "70",
+"When":[ "!z spring" ], }, 
+
+{
+"ItemType": "Object",
+"ItemNames": [ "Summer Seeds" ],
+"StockPrice": "110",
+"When":[ "!z summer" ], }, 
+
+{
+"ItemType": "Object",
+"ItemNames": [ "Fall Seeds" ],
+"StockPrice": "90",
+"When":[ "!z fall" ], }, 
+
+{
+"ItemType": "Object",
+"ItemNames": [ "Winter Seeds" ],
+"StockPrice": "60",
+"When":[ "!z winter" ], }
+
+] } ] }

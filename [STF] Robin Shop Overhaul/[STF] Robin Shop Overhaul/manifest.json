@@ -1,0 +1,13 @@
+{
+  "Name": "[STF] Robin Shop Overhaul",
+  "Author": "LoganDoidao",
+  "Version": "1.6.0",
+  "Description": "Robin sells much more stuff.",
+  "UniqueID": "LoganDoidao.RobinShopOverhaul",
+  "MinimumApiVersion": "3.4.0",
+  "UpdateKeys": [ "Nexus:10527" ],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework",
+	"MinimumVersion": "1.0.5"
+  }
+}

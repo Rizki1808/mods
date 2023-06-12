@@ -1,0 +1,49 @@
+{
+    "Name": "Tall Mallow",
+    "Description": "A flower with petals sometimes used in herbal teas.",
+    "Category": "Flower",
+    "Edibility": 15,
+    "Price": 36,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": 
+    {
+		"Love": ["Leah", "Robin",],
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"],
+		"Dislike": ["Sebastian"],
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "당아욱",
+        "de": "Hohe Malve",
+        "fr": "Mauve sylvestre",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Высокорослая мальва",
+         // "tr": "",
+        "zh": "高锦葵",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "말로우라고도 부르는 이 꽃은 허브티 재료로도 사용된다.",
+        "de": "Eine Blume mit Blütenblättern, die manchmal in Kräutertees verwendet wird.",
+        "fr": "Une fleur aux pétales parfois utilisés dans des infusions apaisantes.",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Такой цветок с лепестками иногда используется в травяных чаях.",
+         // "tr": "",
+        "zh": "一种有许多花瓣的花，有时会用于制作草药茶",
+    },
+    "ContextTags": [
+        "flower_item",
+        "edible_flower_item",
+        "color_purple",
+		"season_summer",
+    ]
+}

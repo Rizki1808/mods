@@ -1,0 +1,228 @@
+﻿{
+	"Format": "1.24",
+
+"Changes": [
+
+//Content Patcher
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_DurinsMineSecretPine",
+            "MapTiles": [
+                {
+                    "Position": { "X": 16, "Y": 46 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "TouchAction": "NoFogBob.DurinsRest/XaliburnFlag"
+                    }
+                }
+            ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_DurinsRestHouse04",
+            "MapTiles": [
+                {
+                    "Position": { "X": 6, "Y": 5 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "TouchAction": "NoFogBob.DurinsRest/DuriniumArmorFlag"
+                    }
+                }
+            ]
+        },		
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_DurinsRestHouse04",
+            "MapTiles": [
+                {
+                    "Position": { "X": 6, "Y": 7 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "TouchAction": "NoFogBob.DurinsRest/DuriniumArmorFlag"
+                    }
+                }
+            ]
+        },		
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_DurinsRest",
+ 			"When": {"HasFlag |contains=DurinsRestSignWorks": "false"},
+			"Update": "OnLocationChange",
+            "MapTiles": [
+                {
+                    "Position": { "X": 38, "Y": 70 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NoFogBob.DurinsRest/DurinsBridgedefault"
+                    }
+                }
+            ]
+		},
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_DurinsRest",
+ 			"When": {"HasFlag |contains=DurinsRestSignWorks": "true"},
+			"Update": "OnLocationChange",
+            "MapTiles": [
+                {
+                    "Position": { "X": 38, "Y": 70 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NoFogBob.DurinsRest/DurinsBridge"
+                    }
+                }
+            ]
+        },
+       {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_DurinsRestHouse04",
+            "MapTiles": [
+                {
+                    "Position": { "X": 1, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NoFogBob.DurinsRest/Glorgan.Fire_switch"
+                    }
+                }
+            ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_DurinsRestHouse04",
+            "MapTiles": [
+                {
+                    "Position": { "X": 3, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NoFogBob.DurinsRest/Glorgan.Ice_switch"
+                    }
+                }
+            ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_DurinsRestHouse04",
+            "MapTiles": [
+                {
+                    "Position": { "X": 5, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NoFogBob.DurinsRest/Glorgan.Necro_switch"
+                    }
+                }
+            ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_DurinsRestHouse04",
+            "MapTiles": [
+                {
+                    "Position": { "X": 7, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NoFogBob.DurinsRest/Glorgan.Vanilla_switch"
+                    }
+                }
+            ]
+        },
+
+// Process custom actions with C#
+
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.ContentCode/TouchAction",
+            "Entries": {
+                "NoFogBob.DurinsRest/XaliburnFlag": "
+					Game1.player.mailReceived.Add(`XaliburnPulled`);
+                "
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.ContentCode/TouchAction",
+            "Entries": {
+                "NoFogBob.DurinsRest/DuriniumArmorFlag": "
+					if (Game1.player.mailReceived.Contains(`DuriniumArmorAvailable`))
+				  {
+					Game1.player.mailReceived.Add(`DuriniumArmorPickedUp`);
+				  }
+                "
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.ContentCode/Action",
+            "Entries": {
+                "NoFogBob.DurinsRest/DurinsBridgedefault": "
+					Game1.drawObjectDialogue(`WARNING! Bridge Intentionally Destroyed. Prove to me that you're strong enough to handle the challenge across the bridge... - Durin`);
+                "
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.ContentCode/Action",
+            "Entries": {
+                "NoFogBob.DurinsRest/DurinsBridge": "
+					if (!Game1.player.mailReceived.Contains(`DurinsRestBridgeAcceptNoted`))
+                  {
+					Game1.drawObjectDialogue(`WARNING! Bridge Intentionally Destroyed. Talk to me at the pub if you're brave enough to venture into the wasteland... - Durin`);
+					Game1.player.mailReceived.Add(`DurinsRestBridgeAccept`);
+					Game1.player.mailReceived.Add(`DurinsRestBridgeAcceptNoted`);
+				  }
+                "
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.ContentCode/Action",
+            "Entries": {
+                "NoFogBob.DurinsRest/Glorgan.Fire_switch": "
+					Game1.drawObjectDialogue(`Upon leaving here your weapons will carry the blessing of Fire.`);
+					Game1.player.mailReceived.Add(`Glorgan.Fire_animation`);
+					Game1.player.mailReceived.Remove(`Glorgan.Ice_animation`);
+					Game1.player.mailReceived.Remove(`Glorgan.Necro_animation`);
+					Game1.player.mailReceived.Remove(`Glorgan.Vanilla_animation`);
+                "
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.ContentCode/Action",
+            "Entries": {
+                "NoFogBob.DurinsRest/Glorgan.Ice_switch": "
+					Game1.drawObjectDialogue(`Upon leaving here your weapons will carry the blessing of Ice.`);
+					Game1.player.mailReceived.Remove(`Glorgan.Fire_animation`);
+					Game1.player.mailReceived.Add(`Glorgan.Ice_animation`);
+					Game1.player.mailReceived.Remove(`Glorgan.Necro_animation`);
+					Game1.player.mailReceived.Remove(`Glorgan.Vanilla_animation`);
+                "
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.ContentCode/Action",
+            "Entries": {
+                "NoFogBob.DurinsRest/Glorgan.Necro_switch": "
+					Game1.drawObjectDialogue(`Upon leaving here your weapons will carry the blessing of Darkness.`);
+					Game1.player.mailReceived.Remove(`Glorgan.Fire_animation`);
+					Game1.player.mailReceived.Remove(`Glorgan.Ice_animation`);
+					Game1.player.mailReceived.Add(`Glorgan.Necro_animation`);
+					Game1.player.mailReceived.Remove(`Glorgan.Vanilla_animation`);
+                "
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.ContentCode/Action",
+            "Entries": {
+                "NoFogBob.DurinsRest/Glorgan.Vanilla_switch": "
+					Game1.drawObjectDialogue(`Upon leaving here your weapons will revert to a normal swing.`);
+					Game1.player.mailReceived.Remove(`Glorgan.Fire_animation`);
+					Game1.player.mailReceived.Remove(`Glorgan.Ice_animation`);
+					Game1.player.mailReceived.Remove(`Glorgan.Necro_animation`);
+					Game1.player.mailReceived.Add(`Glorgan.Vanilla_animation`);
+                "
+            }
+        },
+	]
+}

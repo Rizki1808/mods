@@ -1,0 +1,19 @@
+{
+	"Name": "Portraits For Jio",
+	"Author": "erisaarts",
+	"Version": "1.0.0",
+	"Description": "Replaced Jio's portraits with Nimilla's artstyle.",
+	"UniqueID": "erisaarts.ArtstyleJio",
+	"MinimumApiVersion": "1.1.0",
+	"UpdateKeys": [ "NexusMod:???" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "1.19.0"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "Rafseazz.RSVCP",
+			"IsRequired": true,
+		},
+	]
+}

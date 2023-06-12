@@ -1,0 +1,17 @@
+{
+    "Name": "Durin's Warhammer",
+    "Description": "The sacred hammer of the Durin family line. Its swing is so powerful it's said that it can knock any foe all the way to the top of Grieves Peak!", 
+    "Type": "Club", 
+    "MinimumDamage": 85, 
+    "MaximumDamage": 95, 
+    "Knockback": 6.5, 
+	"Speed": -28,
+    "Accuracy": 100, 
+    "Defense": 0, 
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1, 
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02, 
+    "CritMultiplier": 3, 
+    "CanSell": true,                          
+}

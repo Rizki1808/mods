@@ -1,0 +1,8 @@
+﻿{
+	"Name": "Dwarven Gin",
+	"Description": "Very dry with a complex flavor profile. This spirit gets it's unique profile from it's main botanical: Juniper Berries. Drink in moderation.",
+	"Category": "ArtisanGoods",
+	"Edibility": 50,
+	"EdibleIsDrink": true,
+	"Price": 3100,
+}

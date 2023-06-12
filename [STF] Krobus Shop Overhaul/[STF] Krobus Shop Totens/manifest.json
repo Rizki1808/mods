@@ -1,0 +1,13 @@
+{
+  "Name": "[STF] Krobus Shop Totens",
+  "Author": "LoganDoidao",
+  "Version": "1.4.0",
+  "Description": "Krobus sells Totens.",
+  "UniqueID": "LoganDoidao.KrobusShopTotens",
+  "MinimumApiVersion": "3.4.0",
+  "UpdateKeys": [ "Nexus:10544" ],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework",
+	"MinimumVersion": "1.0.5"
+  }
+}

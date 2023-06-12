@@ -1,0 +1,23 @@
+{
+"VanillaShops":[
+{
+"ShopName":"MarnieShop",
+"AddStockAboveVanilla":"False",
+"DefaultSellPriceMultiplier": 4.0,
+"PriceMultiplierWhen": {
+"0.5": [ "f Marnie 2000" ],
+"0.75": [ "f Marnie 1000" ],
+"0.9": [ "f Marnie 500" ],
+},
+"ItemStocks":[
+//Relics
+{
+"ItemType": "Object",
+"ItemNames": [ 
+"Fiber", 
+"Chewing Stick",
+"Chicken Statue", 
+"Straw Floor",
+], }
+
+] } ] }

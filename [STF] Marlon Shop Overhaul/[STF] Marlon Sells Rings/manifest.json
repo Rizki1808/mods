@@ -1,0 +1,13 @@
+{
+  "Name": "[STF] Marlon Sells Rings",
+  "Author": "LoganDoidao",
+  "Version": "1.2.0",
+  "Description": "Marlon sells some rings .",
+  "UniqueID": "LoganDoidao.MarlonSellsRings",
+  "MinimumApiVersion": "3.4.0",
+  "UpdateKeys": [ "Nexus:10578" ],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework",
+	"MinimumVersion": "1.0.5"
+  }
+}

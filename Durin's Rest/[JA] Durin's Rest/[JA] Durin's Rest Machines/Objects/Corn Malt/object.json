@@ -1,0 +1,8 @@
+﻿{
+	"Name": "Dwarven Corn Malt",
+	"Description": "Corn that has been steeped in water, germinated to open up starch reserves, and kilned to preserve the flavor and color.",
+	"Category": "ArtisanGoods",
+	"Edibility": -300,
+	"EdibleIsDrink": false,
+	"Price": 450,
+	"GiftTastes": {		"Dislike": ["Arwen", "Balor", "Durin", "Edrus", "Glorgan", "Tenebra", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"]	},}

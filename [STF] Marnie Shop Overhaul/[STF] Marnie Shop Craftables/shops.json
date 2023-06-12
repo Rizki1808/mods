@@ -1,0 +1,42 @@
+{
+"VanillaShops":[
+{
+"ShopName":"MarnieShop",
+"AddStockAboveVanilla":"False",
+"DefaultSellPriceMultiplier": 4.0,
+"PriceMultiplierWhen": {
+"0.5": [ "f Marnie 2000" ],
+"0.75": [ "f Marnie 1000" ],
+"0.9": [ "f Marnie 500" ],
+},
+"ItemStocks":[
+//Craftables
+{
+"ItemType": "BigCraftable",
+"StockPrice": "500",
+"ItemNames": [ "Mayonnaise Machine" ],
+"Stock":10
+},
+
+{
+"ItemType": "BigCraftable",
+"StockPrice": "600",
+"ItemNames": [ "Cheese Press" ],
+"Stock":10
+}, 
+
+{
+"ItemType": "BigCraftable",
+"StockPrice": "700",
+"ItemNames": [ "Loom" ],
+"Stock":10 
+},
+
+{
+"ItemType": "BigCraftable",
+"StockPrice": "800",
+"ItemNames": [ "Oil Maker" ],     
+"Stock":10
+}
+
+] } ] }

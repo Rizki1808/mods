@@ -1,0 +1,48 @@
+{
+    "Name": "Giant Snowdrop",
+    "Description": "A flower able to grow even when there is snow.",
+    "Category": "Flower",
+    "Edibility": 0,
+    "Price": 110,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": 
+    {
+		"Love": ["Clint", "Linus"],
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"],
+		"Dislike": ["Sebastian"],
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "큰 설강화",
+        "de": "Riesiges Schneeglöckchen",
+        "fr": "Perce-neige géant",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Гигантский подснежник",
+         // "tr": "",
+        "zh": "巨型雪花莲",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "눈 속에서도 자라나서 스노드롭이라 불리는 겨울 꽃.",
+        "de": "Eine Blume, die auch bei Schnee wachsen kann.",
+        "fr": "Une fleur capable de pousser malgré la neige",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Цветок, способный расти даже тогда, когда идёт снег.",
+         // "tr": "",
+        "zh": "一种即使是下雪天也可以生长的花",
+    },
+    "ContextTags": [
+        "flower_item",
+        "color_white",
+		"season_winter",
+    ]
+}

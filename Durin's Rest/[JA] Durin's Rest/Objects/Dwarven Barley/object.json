@@ -1,0 +1,10 @@
+{
+	"Name": "Dwarven Barley",
+	"Description": "A hearty ancient grain suitable for use in soups and stews. It can also be malted and then brewed into ales and spirits!",
+	"Category": "Fruit",
+	"Edibility": -300,
+	"Price": 25,
+	"GiftTastes": {
+		"Love": ["Leo"],
+	},
+}

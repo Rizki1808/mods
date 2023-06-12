@@ -1,0 +1,8 @@
+﻿{
+	"Name": "Dwarven Wheat Beer",
+	"Description": "Lower in strength around 4% ABV, cloudy with a strong head. Distinguished by its unfiltered creamy appearance and banana and clove flavors piercing through the wheaty finish.",
+	"Category": "ArtisanGoods",
+	"Edibility": 30,
+	"EdibleIsDrink": true,
+	"Price": 1240,
+}

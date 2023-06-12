@@ -1,0 +1,12 @@
+{
+   "Name": "Lumisteria Flowers and Crops",
+   "Author": "Lumisteria",
+   "Description": "This mod adds some flowers and crops.",
+   "Version": "1.0.5",
+   "MinimumApiVersion": "3.7.4",
+   "UniqueID": "lumisteria.flowersandcrops",
+    "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets"
+    },
+  "UpdateKeys": [ "Nexus:7110" ],
+}

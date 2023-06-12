@@ -1,0 +1,522 @@
+{
+    "Format": "1.18.0",
+	"ConfigSchema": {
+	
+		"Text": {
+            "AllowValues": "English, Deutsch, Espanol, Portugues, Francais, Italiano, Magyar, Türk, Russian, Japanese, Korean, Chinese",
+            "Default": "English"
+        },
+		"Tidy Menu": {
+            "AllowValues": "Small First, Big First",
+            "Default": "Small First"
+        },
+		"Quality Fertilizer": {
+            "AllowValues": "1x, 5x, OFF",
+            "Default": "OFF"
+        },
+		"Grass Starter": {
+            "AllowValues": "2x, 3x, OFF",
+            "Default": "OFF"
+        },
+		"Wild Bait": {
+            "AllowValues": "5x, 3x, 1x, OFF",
+            "Default": "OFF"
+        },
+		"Rare Seed": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+		"Burglar Ring": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+		"Bombs": {
+            "AllowValues": "2 Ore, 3 Ore, 4 Ore, OFF",
+            "Default": "OFF"
+        },
+		"Ammo": {
+            "AllowValues": "2 Ore, 3 Ore, 4 Ore, 5 Ore, OFF",
+            "Default": "OFF"
+        },
+		"Golden Mega Bomb": {
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+		"No Jack-o-Lantern": {
+			"AllowValues": "true, false",
+			"Default": "false"
+        }
+    },
+    "Changes": [
+		
+		//Crafting Menu and Language
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes.xnb",
+			"When": {
+				"Text": "English",
+				"Tidy Menu": "Small First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_big.xnb",
+			"When": {
+				"Text": "English",
+				"Tidy Menu": "Big First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_DE.xnb",
+			"When": {
+				"Text": "Deutsch",
+				"Tidy Menu": "Small First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_DE_big.xnb",
+			"When": {
+				"Text": "Deutsch",
+				"Tidy Menu": "Big First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_ES.xnb",
+			"When": {
+				"Text": "Espanol",
+				"Tidy Menu": "Small First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_ES_big.xnb",
+			"When": {
+				"Text": "Espanol",
+				"Tidy Menu": "Big First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_BR.xnb",
+			"When": {
+				"Text": "Portugues",
+				"Tidy Menu": "Small First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_BR_big.xnb",
+			"When": {
+				"Text": "Portugues",
+				"Tidy Menu": "Big First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_FR.xnb",
+			"When": {
+				"Text": "Francais",
+				"Tidy Menu": "Small First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_FR_big.xnb",
+			"When": {
+				"Text": "Francais",
+				"Tidy Menu": "Big First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_IT.xnb",
+			"When": {
+				"Text": "Italiano",
+				"Tidy Menu": "Small First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_IT_big.xnb",
+			"When": {
+				"Text": "Italiano",
+				"Tidy Menu": "Big First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_HU.xnb",
+			"When": {
+				"Text": "Magyar",
+				"Tidy Menu": "Small First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_HU_big.xnb",
+			"When": {
+				"Text": "Magyar",
+				"Tidy Menu": "Big First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_TR.xnb",
+			"When": {
+				"Text": "Türk",
+				"Tidy Menu": "Small First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_TR_big.xnb",
+			"When": {
+				"Text": "Türk",
+				"Tidy Menu": "Big First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_RU.xnb",
+			"When": {
+				"Text": "Russian",
+				"Tidy Menu": "Small First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_RU_big.xnb",
+			"When": {
+				"Text": "Russian",
+				"Tidy Menu": "Big First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_JP.xnb",
+			"When": {
+				"Text": "Japanese",
+				"Tidy Menu": "Small First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_JP_big.xnb",
+			"When": {
+				"Text": "Japanese",
+				"Tidy Menu": "Big First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_KR.xnb",
+			"When": {
+				"Text": "Korean",
+				"Tidy Menu": "Small First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_KR_big.xnb",
+			"When": {
+				"Text": "Korean",
+				"Tidy Menu": "Big First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_CH.xnb",
+			"When": {
+				"Text": "Chinese",
+				"Tidy Menu": "Small First",
+            },
+        },
+		{
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/CraftingRecipes_CH_big.xnb",
+			"When": {
+				"Text": "Chinese",
+				"Tidy Menu": "Big First",
+            },
+        },
+
+		
+		// Fertilizer
+		{
+         "Action": "EditData",
+         "Target": "Data/CraftingRecipes",
+		 "When": {
+				"Quality Fertilizer": "1x"
+            },
+         "Fields": {
+            "Quality Fertilizer": {
+               0: "92 2 766 1"
+				}
+			}
+        },
+		{
+         "Action": "EditData",
+         "Target": "Data/CraftingRecipes",
+		 "When": {
+				"Quality Fertilizer": "5x"
+            },
+         "Fields": {
+            "Quality Fertilizer": {
+               0: "92 10 766 5",
+			   2: "369 5"
+				}
+			}
+        },
+		
+	   	// Bombs
+		{
+         "Action": "EditData",
+         "Target": "Data/CraftingRecipes",
+		 "When": {
+				"Bombs": "2 Ore"
+            },
+         "Fields": {
+            "Cherry Bomb": {
+               0: "378 2 382 1"
+            },
+			"Bomb": {
+               0: "380 2 382 1"
+            },
+			"Mega Bomb": {
+               0: "384 2 382 1"
+				}
+			}
+        },		
+		{
+         "Action": "EditData",
+         "Target": "Data/CraftingRecipes",
+		 "When": {
+				"Bombs": "3 Ore"
+            },
+         "Fields": {
+            "Cherry Bomb": {
+               0: "378 3 382 1"
+            },
+			"Bomb": {
+               0: "380 3 382 1"
+            },
+			"Mega Bomb": {
+               0: "384 3 382 1"
+				}
+			}
+        },		
+		{
+         "Action": "EditData",
+         "Target": "Data/CraftingRecipes",
+		 "When": {
+				"Bombs": "4 Ore"
+            },
+         "Fields": {
+            "Cherry Bomb": {
+               0: "378 4 382 1"
+            },
+			"Bomb": {
+               0: "380 4 382 1"
+            },
+			"Mega Bomb": {
+               0: "384 4 382 1"
+				}
+			}
+        },
+		
+		// Ammo
+		{
+         "Action": "EditData",
+         "Target": "Data/CraftingRecipes",
+		 "When": {
+				"Ammo": "2 Ore"
+            },
+         "Fields": {
+            "Explosive Ammo": {
+               0: "378 2 769 1"
+				}
+			}
+        },
+		{
+         "Action": "EditData",
+         "Target": "Data/CraftingRecipes",
+		 "When": {
+				"Ammo": "3 Ore"
+            },
+         "Fields": {
+            "Explosive Ammo": {
+               0: "378 3 769 1"
+				}
+			}
+        },
+		{
+         "Action": "EditData",
+         "Target": "Data/CraftingRecipes",
+		 "When": {
+				"Ammo": "4 Ore"
+            },
+         "Fields": {
+            "Explosive Ammo": {
+               0: "378 4 769 1"
+				}
+			}
+        },
+		{
+         "Action": "EditData",
+         "Target": "Data/CraftingRecipes",
+		 "When": {
+				"Ammo": "5 Ore"
+            },
+         "Fields": {
+            "Explosive Ammo": {
+               0: "378 5 769 1"
+				}
+			}
+        },
+		
+		// Grass Starter
+		{
+         "Action": "EditData",
+         "Target": "Data/CraftingRecipes",
+		 "When": {
+				"Grass Starter": "2x"
+            },
+         "Fields": {
+            "Grass Starter": {
+               0: "771 2"
+				}
+			}
+        },
+		
+		{
+         "Action": "EditData",
+         "Target": "Data/CraftingRecipes",
+		 "When": {
+				"Grass Starter": "3x"
+            },
+         "Fields": {
+            "Grass Starter": {
+               0: "771 3"
+				}
+			}
+        },
+		
+		// Wild Bait
+		{
+         "Action": "EditData",
+         "Target": "Data/CraftingRecipes",
+		 "When": {
+				"Wild Bait": "5x"
+            },
+         "Fields": {
+            "Wild Bait": {
+               0: "771 5 684 5 766 5"
+				}
+			}
+        },
+		
+		{
+         "Action": "EditData",
+         "Target": "Data/CraftingRecipes",
+		 "When": {
+				"Wild Bait": "3x"
+            },
+         "Fields": {
+            "Wild Bait": {
+               0: "771 3 684 3 766 3"
+				}
+			}
+        },
+		
+		{
+         "Action": "EditData",
+         "Target": "Data/CraftingRecipes",
+		 "When": {
+				"Wild Bait": "1x"
+            },
+         "Fields": {
+            "Wild Bait": {
+               0: "771 1 684 1 766 1"
+				}
+			}
+        },
+		
+		// Rare Seed
+		{
+         "Action": "EditData",
+         "Target": "Data/CraftingRecipes",
+		 "When": {
+				"Rare Seed": "false",
+				"Tidy Menu": "Small First, Big First"
+            },
+         "Entries": {
+            "Rare Seed": null
+            }
+        },
+		
+		// Burglar Ring
+		{
+         "Action": "EditData",
+         "Target": "Data/CraftingRecipes",
+		 "When": {
+				"Burglar Ring": "false",
+				"Tidy Menu": "Small First, Big First"
+            },
+         "Entries": {
+            "Burglar's Ring": null
+            }
+        },
+		
+		// Bomb Skin
+		{
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+		 "When": {
+				"Golden Mega Bomb": "true"
+            },
+         "FromFile": "assets/bomb.png",
+         "FromArea": { "X": 0, "Y": 192, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 0, "Y": 192, "Width": 16, "Height": 16 }
+		},
+	  
+	  	// No Jack-o-Lantern
+		{
+         "Action": "EditData",
+         "Target": "Data/CraftingRecipes",
+		 "When": {
+				"No Jack-o-Lantern": "true"
+            },
+         "Entries": {
+			"Jack-O-Lantern": null
+            }
+        },
+			
+    ]
+}

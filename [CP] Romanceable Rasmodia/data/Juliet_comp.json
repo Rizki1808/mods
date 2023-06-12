@@ -1,0 +1,11 @@
+{
+	"Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+                "Juliet_TalentShow": "I am not a witch-for-hire you know....$1"
+            }
+        }
+    ]
+}

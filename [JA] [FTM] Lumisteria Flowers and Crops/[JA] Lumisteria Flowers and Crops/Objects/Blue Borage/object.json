@@ -1,0 +1,50 @@
+{
+    "Name": "Blue Borage",
+    "Description": "A star-shaped blue flower and edible leaves.",
+    "Category": "Flower",
+    "Edibility": 15,
+    "Price": 60,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": 
+    {
+        "Love": ["Leah", "Gus"],
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard"],
+        "Dislike": ["Jas", "Vincent", "Sebastian"],
+		},
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "푸른 보리지",
+        "de": "Blauer Borretsch",
+        "fr": "Bourrache Bleue",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Огуречная трава",
+         // "tr": "",
+        "zh": "蓝琉璃",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "푸른 별 모양의 꽃. 잎은 식용할 수 있다.",
+        "de": "Eine sternförmige blaue Blume und essbare Blätter.",
+        "fr": "Une fleur étoilée et des feuilles comestibles.",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Звездообразный голубой цветок со съедобными листьями.",
+         // "tr": "",
+        "zh": "有星状的蓝色花朵和可食用叶子的花",
+    },
+    "ContextTags": [
+        "flower_item",
+        "edible_flower_item",
+        "color_blue",
+		"season_spring",
+		"season_summer",
+    ]
+}

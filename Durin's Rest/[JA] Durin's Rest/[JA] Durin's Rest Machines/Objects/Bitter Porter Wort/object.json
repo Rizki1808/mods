@@ -1,0 +1,8 @@
+﻿{
+	"Name": "Bitter Dwarven Porter Wort",
+	"Description": "Clarified Dwarven Barley Wort that has been sterilized and made Clear of all unwanted volatiles. With the addition of hops, it is delightfully bitter!",
+	"Category": "ArtisanGoods",
+	"Edibility": 5,
+	"EdibleIsDrink": true,
+	"Price": 900,
+	"GiftTastes": {		"Dislike": ["Arwen", "Balor", "Durin", "Edrus", "Glorgan", "Tenebra", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"]	},}

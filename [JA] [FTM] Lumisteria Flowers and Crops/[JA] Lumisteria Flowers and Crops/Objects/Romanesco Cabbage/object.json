@@ -1,0 +1,47 @@
+{
+    "Name": "Romanesco Cabbage",
+    "Description": "A variety of cabbage, growing following a fractal pattern.",
+    "Category": "Vegetable",
+    "Edibility": 25,
+    "Price": 200,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": 
+    {
+		"Love": ["Maru"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "로마네스코 브로콜리",
+        "de": "Romanesco Kohl",
+        "fr": "Chou romanesco",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Капуста 'Романеско'",
+         // "tr": "",
+        "zh": "罗曼斯科白菜",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "프렉탈 패턴을 형성하는 신기한 품종.",
+        "de": "Eine Kohlsorte, die nach einem fraktalen Muster wächst.",
+        "fr": "Un chou dont les florettes poussent selon un motif de fractale.",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Разновидность капусты, растущей по фрактальной схеме.",
+         // "tr": "",
+        "zh": "卷心菜的一个变种，按照分形模式生长。",
+    },
+    "ContextTags": [
+        "color_green",
+		"season_fall",
+		"season_winter",
+    ]
+}

@@ -1,0 +1,8 @@
+﻿{
+    "Name": "Dirt Dragon Egg",
+    "Description": "The rough edges on this thing imply that the Dirt Dragon has a particularly high pain tolerance...",
+    "Category": "MonsterLoot",
+    "Edibility": -300,
+    "EdibleIsDrink": false,
+    "Price": 500,
+}

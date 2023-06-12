@@ -1,0 +1,27 @@
+{
+"VanillaShops":[
+{
+"ShopName":"WillyShop",
+"AddStockAboveVanilla":"False",
+"DefaultSellPriceMultiplier": 4.0,
+
+"PriceMultiplierWhen": {
+"0.5": [ "f Willy 2000" ],
+"0.75": [ "f Willy 1000" ],
+"0.9": [ "f Willy 500" ],
+},
+
+"ItemStocks":[
+//Forage
+{
+"ItemType": "Object",
+"ItemNames": [ 
+"Seaweed", 
+"Coral", 
+"Sea Urchin", 
+"Rainbow Shell", 
+"Nautilus Shell", 
+],
+}
+
+]}]}

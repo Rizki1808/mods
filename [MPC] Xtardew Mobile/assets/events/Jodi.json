@@ -1,0 +1,36 @@
+{
+  "events": [
+    {
+      "name": "Dining with Jodi.",
+      "location": "SamHouse",
+      "eventId": "94",
+      "night": true,
+      "mail": "null"
+    },
+    {
+      "name": "Roleplaying with Jodi.",
+      "location": "farmhouse",
+      "eventId": "132743",
+      "night": true,
+      "mail": "null"
+    },
+    {
+      "name": "After Jodi divorces Kent.",
+      "location": "farmhouse",
+      "eventId": "297361",
+      "night": true,
+      "mail": "null"
+    },
+    {
+      "name": "Going with Caroline and Jodi to the bathhouse.",
+      "location": "farmhouse",
+      "eventId": "43529255",
+      "night": true,
+      "mail": "null"
+    },
+
+
+
+
+  ]
+}

@@ -1,0 +1,25 @@
+{
+	"Name": "Dwarven Still",
+	"Description": "An apparatus for distilling alcohols. Comprised of a vaporization chamber and a cooling column in which the vapor is condensed into spirits.",
+	"Price": 0,
+	"ProvidesLight": false,
+	"ReserveNextIndex": false,
+	"Recipe": {
+		"ResultCount": 1,
+		"Ingredients": [
+			{
+			"Object": "Copper Bar",
+			"Count": 5,
+			},
+			{
+			"Object": "Iron Bar",
+			"Count": 1,
+			},
+			{
+			"Object": "Durinium",
+			"Count": 1,
+			},
+		],
+		"IsDefault": false,
+	},
+}

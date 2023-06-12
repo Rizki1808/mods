@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "name": "Visiting CLaire's house",
+      "location": "busstop",
+      "eventId": "3219876",
+      "night": false,
+      "mail": "null"
+    },
+    {
+      "name": "At the beach with Claire",
+      "location": "farmhouse",
+      "eventId": "3219878",
+      "night": false,
+      "mail": "null"
+    },
+  ]
+}

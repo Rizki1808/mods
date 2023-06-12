@@ -1,0 +1,9 @@
+﻿{
+	"Name": "Crimson Citrus Tree",
+	"Product": "Crimson Citrus",
+	"SaplingName": "Crimson Citrus Sapling",
+	"SaplingDescription": "Takes 28 days to produce a mature Crimson Citrus Tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+	"Season": "summer",
+	"SaplingPurchasePrice": 1250,
+	"SaplingPurchaseFrom": "null",
+}

@@ -1,0 +1,53 @@
+{
+    "Name": "Blue Flame",
+    "Product": "Blue Flame",
+    "SeedName": "Blue Flame Seeds",
+    "SeedDescription": "Plant them in spring. Take 8 days to produce a beautiful flower.",
+    "Type": "Flower",
+
+    "Seasons": ["spring"],
+    "Phases": [1, 2, 2, 3],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+
+    "SeedPurchasePrice": 180,
+    "SeedPurchaseRequirements": [
+    	"y 4",
+],
+    "SeedNameLocalization":
+    {
+        //"es": "",
+        "ko": "블루 플레임 씨앗",
+        "de": "Blauflammensamen",
+		"fr": "Graines de flammèches bleues",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "i",
+        "ru": "Семена голубого пламени",
+        //"tr": "",
+        "zh": "蓝焰花种子",
+    },
+    "SeedDescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "봄에 심는다. 꽃이 피는데 8일 걸린다.",
+        "de": "Sähen im Frühjahr.Es brauch 8 Tage für die erste Ernte und um eine schöne Blume zu produzieren.",
+		"fr": "À planter au printemps. Il faudra 8 jours pour arriver à maturité.",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "i",
+        "ru": "Сажайте весной. Через 8 дней вырастает красивый голубой цветок.",
+        //"tr": "",
+        "zh": "在春天种植，8天就能长出一朵美丽的花",
+    }
+}

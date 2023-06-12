@@ -1,0 +1,43 @@
+﻿{
+    "Name": "Fried Rested Cod",
+    "Description": "The crispy batter exterior keeps all the juices inside lending to a fantastically tender fried fish. Served on a bed of herbs with a Citron garnish.",
+    "Category": "Cooking",
+    "Edibility": 30,
+    "EdibleIsDrink": false,
+	"EdibleBuffs": {
+		"Farming": 0,
+		"Fishing": 0,
+		"Mining": 0,
+		"Luck": 0,
+		"Foraging": 0,
+		"MaxStamina": 0,
+		"MagnetRadius": 0,
+		"Speed": 0,
+		"Defense": 0,
+		"Attack": 0,
+		"Duration": 600,
+	},
+    "Price": 2520,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+            "Object": "Rested Cod",
+            "Count": 1,
+			},
+			{
+            "Object": "Wheat Flour",
+            "Count": 1,
+			},
+			{
+			"Object": "Oil",
+			"Count": 3,
+			},
+			{
+			"Object": "Citron",
+			"Count": 1,
+			},
+		],
+		"IsDefault": false,
+    },
+}

@@ -1,0 +1,157 @@
+{
+  "Format": "1.28.0",
+  "ConfigSchema": {
+    "Zinnia_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Daisy_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Daniel_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Silly_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Gabriel_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    }
+  },
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Mods/AGEHDAnime/Zinnia, Mods/AGEHDAnime/Zinnia_Beach",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": {
+        "Zinnia_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Zinnia, Mods/HDPortraits/Zinnia_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Zinnia_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Zinnia",
+      "Entries": {
+        "Portrait": "Mods/AGEHDAnime/{{TargetWithoutPath}}"
+      },
+      "When": {
+        "Zinnia_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/AGEHDAnime/Daisy",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": {
+        "Daisy_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Daisy",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Daisy_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Daisy",
+      "Entries": {
+        "Portrait": "Mods/AGEHDAnime/{{TargetWithoutPath}}"
+      },
+      "When": {
+        "Daisy_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/AGEHDAnime/Daniel",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": {
+        "Daniel_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Daniel",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Daniel_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Daniel",
+      "Entries": {
+        "Portrait": "Mods/AGEHDAnime/{{TargetWithoutPath}}"
+      },
+      "When": {
+        "Daniel_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/AGEHDAnime/Silly, Mods/AGEHDAnime/Silly_Beach",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": {
+        "Silly_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Silly, Mods/HDPortraits/Silly_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Silly_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Silly",
+      "Entries": {
+        "Portrait": "Mods/AGEHDAnime/{{TargetWithoutPath}}"
+      },
+      "When": {
+        "Silly_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/AGEHDAnime/Gabriel, Mods/AGEHDAnime/Gabriel_Beach",
+      "FromFile": "assets/{{TargetWithoutPath}}.png",
+      "When": {
+        "Gabriel_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Gabriel, Mods/HDPortraits/Gabriel_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Gabriel_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Gabriel",
+      "Entries": {
+        "Portrait": "Mods/AGEHDAnime/{{TargetWithoutPath}}"
+      },
+      "When": {
+        "Gabriel_HD_portrait": "true"
+      }
+    }
+  ]
+}

@@ -1,0 +1,566 @@
+{
+	"Format": "1.19",
+
+	"Changes": [
+
+//Objects
+		{
+			"LogName": "Durinium Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Durinium}}",
+			"FromFile": "assets/Durinium.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/ObjectSpriteX:Durinium}}",
+				"Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Durinium}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 16,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		{
+			"LogName": "Warp Totem Durins Rest Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Warp Totem: Durin's Rest}}",
+			"FromFile": "assets/Warp Totem Durins Rest.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/ObjectSpriteX:Warp Totem: Durin's Rest}}",
+				"Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Warp Totem: Durin's Rest}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		{
+			"LogName": "Ouroboros Ring Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Ouroboros Ring}}",
+			"FromFile": "assets/Ouroboros Ring.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/ObjectSpriteX:Ouroboros Ring}}",
+				"Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Ouroboros Ring}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 8,
+			"AnimationFrameCount": 12,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		{
+			"LogName": "Dwarven Silver Ore Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Dwarven Silver Ore}}",
+			"FromFile": "assets/Dwarven Silver Ore.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/ObjectSpriteX:Dwarven Silver Ore}}",
+				"Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Dwarven Silver Ore}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 12,
+			"AnimationFrameCount": 12,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		{
+			"LogName": "Dwarven Silver Bar Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Dwarven Silver Bar}}",
+			"FromFile": "assets/Dwarven Silver Bar.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/ObjectSpriteX:Dwarven Silver Bar}}",
+				"Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Dwarven Silver Bar}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 5,
+			"AnimationFrameCount": 24,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},		
+		{
+			"LogName": "Zombie Miner Flesh",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Zombie Miner Flesh}}",
+			"FromFile": "assets/Zombie Miner Flesh.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/ObjectSpriteX:Zombie Miner Flesh}}",
+				"Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Zombie Miner Flesh}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 10,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		{
+			"LogName": "Zombie Foreman Flesh",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Zombie Foreman Flesh}}",
+			"FromFile": "assets/Zombie Foreman Flesh.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/ObjectSpriteX:Zombie Foreman Flesh}}",
+				"Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Zombie Foreman Flesh}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 10,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		{
+			"LogName": "Solid Gold Durin Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Solid Gold Durin}}",
+			"FromFile": "assets/Solid Gold Durin.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Solid Gold Durin}}",
+				"Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Solid Gold Durin}}",
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 5,
+			"AnimationFrameCount": 32,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+
+//Hats
+		{
+			"LogName": "Durinium Helmet Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/HatSpriteTilesheet:Durinium Helmet}}",
+			"FromFile": "assets/DuriniumHelmet.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 20,
+				"Height": 80
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/HatSpriteX:Durinium Helmet}}",
+				"Y": "{{spacechase0.JsonAssets/HatSpriteY:Durinium Helmet}}",
+				"Width": 20,
+				"Height": 80
+			},
+			"AnimationFrameTime": 5,
+			"AnimationFrameCount": 39,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},		
+
+//Weapons
+		{
+			"LogName": "Shadow Shiv Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/WeaponSpriteTilesheet:Shadow Shiv}}",
+			"FromFile": "assets/Shadow Shiv.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/WeaponSpriteX:Shadow Shiv}}",
+				"Y": "{{spacechase0.JsonAssets/WeaponSpriteY:Shadow Shiv}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 5,
+			"AnimationFrameCount": 42,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		{
+			"LogName": "Xaliburn Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/WeaponSpriteTilesheet:Xaliburn}}",
+			"FromFile": "assets/Xaliburn.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/WeaponSpriteX:Xaliburn}}",
+				"Y": "{{spacechase0.JsonAssets/WeaponSpriteY:Xaliburn}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 16,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		{
+			"LogName": "Durin's Warhammer Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/WeaponSpriteTilesheet:Durin's Warhammer}}",
+			"FromFile": "assets/Durin's Warhammer.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/WeaponSpriteX:Durin's Warhammer}}",
+				"Y": "{{spacechase0.JsonAssets/WeaponSpriteY:Durin's Warhammer}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 10,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		
+//Food
+		{
+			"LogName": "Dirt Dragon Omelet Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Dirt Dragon Omelet}}",
+			"FromFile": "assets/Dirt Dragon Omelet.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/ObjectSpriteX:Dirt Dragon Omelet}}",
+				"Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Dirt Dragon Omelet}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		{
+			"LogName": "Durin's Fries Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Durin's Fries}}",
+			"FromFile": "assets/Durin's Fries.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/ObjectSpriteX:Durin's Fries}}",
+				"Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Durin's Fries}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		{
+			"LogName": "Dwarven Fry Basket Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Dwarven Fry Basket}}",
+			"FromFile": "assets/Dwarven Fry Basket.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/ObjectSpriteX:Dwarven Fry Basket}}",
+				"Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Dwarven Fry Basket}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		{
+			"LogName": "Dwarven Rye Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Dwarven Rye}}",
+			"FromFile": "assets/Dwarven Rye.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/ObjectSpriteX:Dwarven Rye}}",
+				"Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Dwarven Rye}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		{
+			"LogName": "Dwarven Sourdough Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Dwarven Sourdough}}",
+			"FromFile": "assets/Dwarven Sourdough.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/ObjectSpriteX:Dwarven Sourdough}}",
+				"Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Dwarven Sourdough}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		{
+			"LogName": "Fried Blind Barracuda Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Fried Blind Barracuda}}",
+			"FromFile": "assets/Fried Blind Barracuda.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/ObjectSpriteX:Fried Blind Barracuda}}",
+				"Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Fried Blind Barracuda}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		{
+			"LogName": "Fried Golden Snowtail Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Fried Golden Snowtail}}",
+			"FromFile": "assets/Fried Golden Snowtail.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/ObjectSpriteX:Fried Golden Snowtail}}",
+				"Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Fried Golden Snowtail}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		{
+			"LogName": "Fried Rested Cod Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Fried Rested Cod}}",
+			"FromFile": "assets/Fried Rested Cod.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/ObjectSpriteX:Fried Rested Cod}}",
+				"Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Fried Rested Cod}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		{
+			"LogName": "Fried Rested Salmon Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Fried Rested Salmon}}",
+			"FromFile": "assets/Fried Rested Salmon.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/ObjectSpriteX:Fried Rested Salmon}}",
+				"Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Fried Rested Salmon}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		{
+			"LogName": "Fried Shady Shad Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Fried Shady Shad}}",
+			"FromFile": "assets/Fried Shady Shad.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/ObjectSpriteX:Fried Shady Shad}}",
+				"Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Fried Shady Shad}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		{
+			"LogName": "Fried Silver Snowtail Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Fried Silver Snowtail}}",
+			"FromFile": "assets/Fried Silver Snowtail.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/ObjectSpriteX:Fried Silver Snowtail}}",
+				"Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Fried Silver Snowtail}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+		{
+			"LogName": "Full Dwarven Dinner Animation",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Full Dwarven Dinner}}",
+			"FromFile": "assets/Full Dwarven Dinner.png",
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{ 
+				"X": "{{spacechase0.JsonAssets/ObjectSpriteX:Full Dwarven Dinner}}",
+				"Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Full Dwarven Dinner}}",
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+				"When": {
+					"HasMod: |contains=spacechase0.ContentPatcherAnimations": true,
+				},
+		},
+	],
+}

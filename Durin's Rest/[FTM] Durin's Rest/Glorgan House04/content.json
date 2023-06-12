@@ -1,0 +1,549 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": false,
+  "OreSpawnEnabled": true,
+  "MonsterSpawnEnabled": true,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Hat",
+                "name": "Durinium Helmet"
+              }
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Hat",
+                "name": "Durinium Helmet"
+              }
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Hat",
+                "name": "Durinium Helmet"
+              }
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Hat",
+                "name": "Durinium Helmet"
+              }
+            ]
+          }
+        ],
+        "UniqueAreaID": "DRHouse4Forage1",
+        "MapName": "Custom_DurinsRestHouse04",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Stone"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "7,4/7,4"
+        ],
+        "ExcludeCoordinates": [
+          "0,0/6,999",
+          "8,0/999,999",
+          "0,0/999,3",
+          "0,5/999,999"
+        ],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {
+            "HasFlag |contains=DuriniumArmorAvailable": "true"
+          },
+          "EPUPreconditions": [
+            "l DuriniumArmorPickedUp"
+          ],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 112
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Clothing",
+                "name": "Durinium Breastplate"
+              }
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Clothing",
+                "name": "Durinium Breastplate"
+              }
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Clothing",
+                "name": "Durinium Breastplate"
+              }
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Clothing",
+                "name": "Durinium Breastplate"
+              }
+            ]
+          }
+        ],
+        "UniqueAreaID": "DRHouse4Forage2",
+        "MapName": "Custom_DurinsRestHouse04",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Stone"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "7,5/7,5"
+        ],
+        "ExcludeCoordinates": [
+          "0,0/6,999",
+          "8,0/999,999",
+          "0,0/999,4",
+          "0,6/999,999"
+        ],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {
+            "HasFlag |contains=DuriniumArmorAvailable": "true"
+          },
+          "EPUPreconditions": [
+            "l DuriniumArmorPickedUp"
+          ],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 112
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Clothing",
+                "name": "Durinium Legplates"
+              }
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Clothing",
+                "name": "Durinium Legplates"
+              }
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Clothing",
+                "name": "Durinium Legplates"
+              }
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Clothing",
+                "name": "Durinium Legplates"
+              }
+            ]
+          }
+        ],
+        "UniqueAreaID": "DRHouse4Forage3",
+        "MapName": "Custom_DurinsRestHouse04",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Stone"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "7,6/7,6"
+        ],
+        "ExcludeCoordinates": [
+          "0,0/6,999",
+          "8,0/999,999",
+          "0,0/999,5",
+          "0,7/999,999"
+        ],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {
+            "HasFlag |contains=DuriniumArmorAvailable": "true"
+          },
+          "EPUPreconditions": [
+            "l DuriniumArmorPickedUp"
+          ],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 112
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Boots",
+                "name": "Durinium Greaves"
+              }
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Boots",
+                "name": "Durinium Greaves"
+              }
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Boots",
+                "name": "Durinium Greaves"
+              }
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Boots",
+                "name": "Durinium Greaves"
+              }
+            ]
+          }
+        ],
+        "UniqueAreaID": "DRHouse4Forage4",
+        "MapName": "Custom_DurinsRestHouse04",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Stone"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "7,7/7,7"
+        ],
+        "ExcludeCoordinates": [
+          "0,0/6,999",
+          "8,0/999,999",
+          "0,0/999,6",
+          "0,8/999,999"
+        ],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {
+            "HasFlag |contains=DuriniumArmorAvailable": "true"
+          },
+          "EPUPreconditions": [
+            "l DuriniumArmorPickedUp"
+          ],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 112
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Weapon",
+                "name": "Glorgan's Hammer"
+              }
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Weapon",
+                "name": "Glorgan's Hammer"
+              }
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Weapon",
+                "name": "Glorgan's Hammer"
+              }
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "category": "Chest",
+            "contents": [
+              {
+                "category": "Weapon",
+                "name": "Glorgan's Hammer"
+              }
+            ]
+          }
+        ],
+        "UniqueAreaID": "DRHouse4Forage5",
+        "MapName": "Custom_DurinsRestHouse04",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Stone"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "8,12/8,12"
+        ],
+        "ExcludeCoordinates": [
+          "0,0/7,999",
+          "9,0/999,999",
+          "0,0/999,11",
+          "0,13/999,999"
+        ],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 112
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 0,
+    "SpringItemIndex": [],
+    "SummerItemIndex": [],
+    "FallItemIndex": [],
+    "WinterItemIndex": [],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [],
+    "CustomTileIndex": []
+  },
+  "Ore_Spawn_Settings": {
+    "Areas": [],
+    "PercentExtraSpawnsPerMiningLevel": 0,
+    "MiningLevelRequired": {
+      "Stone": 0,
+      "Geode": 0,
+      "FrozenGeode": 5,
+      "MagmaGeode": 8,
+      "OmniGeode": 0,
+      "Gem": 6,
+      "Copper": 0,
+      "Iron": 4,
+      "Gold": 7,
+      "Iridium": 9,
+      "Mystic": 10,
+      "Radioactive": 0,
+      "Diamond": 6,
+      "Ruby": 6,
+      "Jade": 6,
+      "Amethyst": 6,
+      "Topaz": 6,
+      "Emerald": 6,
+      "Aquamarine": 6,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0
+    },
+    "StartingSpawnChance": {
+      "Stone": 66,
+      "Geode": 8,
+      "FrozenGeode": 4,
+      "MagmaGeode": 2,
+      "OmniGeode": 0,
+      "Gem": 5,
+      "Copper": 21,
+      "Iron": 15,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Radioactive": 0,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0
+    },
+    "LevelTenSpawnChance": {
+      "Stone": 48,
+      "Geode": 2,
+      "FrozenGeode": 2,
+      "MagmaGeode": 2,
+      "OmniGeode": 0,
+      "Gem": 5,
+      "Copper": 16,
+      "Iron": 13,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Radioactive": 0,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0
+    },
+    "CustomTileIndex": []
+  },
+  "Monster_Spawn_Settings": {
+    "Areas": [],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [],
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {
+      "NoFogBob.DurinsRest": true
+    }
+  }
+}

@@ -1,0 +1,819 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": false,
+  "OreSpawnEnabled": false,
+  "MonsterSpawnEnabled": false,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": [
+          "Blue Forget Me Not",
+          "Purple Pansy"
+        ],
+        "SummerItemIndex": [
+          "Azure Cornflower"
+        ],
+        "FallItemIndex": [
+          "Azure Cornflower"
+        ],
+        "WinterItemIndex": [
+          "Lilac Pansy"
+        ],
+        "UniqueAreaID": "Secret Wood 1",
+        "MapName": "Woods",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "22,11/34,17"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [
+          "Blue Forget Me Not",
+          "Purple Pansy"
+        ],
+        "SummerItemIndex": [
+          "Azure Cornflower"
+        ],
+        "FallItemIndex": [
+          "Azure Cornflower"
+        ],
+        "WinterItemIndex": [
+          "Lilac Pansy"
+        ],
+        "UniqueAreaID": "Forest 1",
+        "MapName": "Forest",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "11,41/40,50",
+          "8,65/18,88"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [
+            "3",
+            "7",
+            "11",
+            "16",
+            "23",
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Giant Spring Bells Seeds"
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Golden Calendula Seeds"
+            ]
+          },
+          {
+            "category": "Buried",
+            "contents": [
+              "Butterfly Lavender Seeds"
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Romanesco Cabbage Seeds"
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Winter Blue Iris Bulb"
+            ]
+          }
+        ],
+        "UniqueAreaID": "Mountain Artifact 1",
+        "MapName": "Mountain",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [
+            "1",
+            "5",
+            "9",
+            "13",
+            "18",
+            "25"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Giant Spring Bells Seeds"
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Golden Calendula Seeds"
+            ]
+          },
+          {
+            "category": "Buried",
+            "contents": [
+              "Butterfly Lavender Seeds"
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Romanesco Cabbage Seeds"
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Winter Blue Iris Bulb"
+            ]
+          }
+        ],
+        "UniqueAreaID": "RailRoad Artifact 1",
+        "MapName": "RailRoad",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [
+            "4",
+            "8",
+            "12",
+            "17",
+            "24",
+            "28"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Blue Flame Seeds"
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Tall Mallow Seeds"
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Purple Flame Seeds"
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Giant Snowdrop Seeds"
+            ]
+          }
+        ],
+        "UniqueAreaID": "Forest Artifact 1",
+        "MapName": "Forest",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [
+            "2",
+            "6",
+            "10",
+            "14",
+            "19",
+            "26"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Blue Borage Seeds"
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Tall Mallow Seeds"
+            ]
+          },
+          {
+            "category": "Buried",
+            "contents": [
+              "Sugar Plum Foxglove Seeds"
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Purple Flame Seeds"
+            ]
+          },
+          {
+            "category": "Buried",
+            "contents": [
+              "Baby Boo Squash Seeds"
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Giant Snowdrop Seeds"
+            ]
+          }
+        ],
+        "UniqueAreaID": "BusStop Artifact 1",
+        "MapName": "BusStop",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [
+            "7",
+            "10",
+            "19",
+            "26"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [],
+        "SummerItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Sugar Plum Foxglove Seeds"
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Pink Clematis Starter"
+            ]
+          }
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Town Artifact 1",
+        "MapName": "Town",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [
+            "7",
+            "11",
+            "21"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [],
+        "SummerItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Pink Hollyhock Seeds"
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Baby Boo Squash Seeds"
+            ]
+          }
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Backwoods Artifact 1",
+        "MapName": "Backwoods",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [
+            "12",
+            "16",
+            "25"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": [
+          "Azure Cornflower"
+        ],
+        "FallItemIndex": [
+          "Azure Cornflower"
+        ],
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Farm 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [
+            "Rain",
+            "Storm"
+          ],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Giant Spring Bells Seeds"
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Golden Calendula Seeds"
+            ]
+          },
+          {
+            "category": "Buried",
+            "contents": [
+              "Butterfly Lavender Seeds"
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Romanesco Cabbage Seeds"
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Winter Blue Iris Bulb"
+            ]
+          }
+        ],
+        "UniqueAreaID": "RailRoad forage area 1",
+        "MapName": "RailRoad",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [
+            "4",
+            "8",
+            "12",
+            "17",
+            "24",
+            "28"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "category": "Crate",
+            "contents": [
+              "Blue Flame Seeds"
+            ]
+          },
+          {
+            "category": "Crate",
+            "contents": [
+              "Pink Hollyhock Seeds"
+            ]
+          },
+          {
+            "category": "Barrel",
+            "contents": [
+              "Blue Flame Seeds",
+              "Pink Hollyhock Seeds"
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "category": "Crate",
+            "contents": [
+              "Sugar Plum Foxglove Seeds"
+            ]
+          },
+          {
+            "category": "Crate",
+            "contents": [
+              "Pink Hollyhock Seeds"
+            ]
+          },
+          {
+            "category": "Barrel",
+            "contents": [
+              "Sugar Plum Foxglove Seeds",
+              "Pink Hollyhock Seeds"
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "Crate",
+            "contents": [
+              "Baby Boo Squash Seeds"
+            ]
+          },
+          {
+            "category": "Crate",
+            "contents": [
+              "Pink Clematis Starter"
+            ]
+          },
+          {
+            "category": "Barrel",
+            "contents": [
+              "Baby Boo Squash Seeds",
+              "Pink Clematis Starter"
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "category": "Crate",
+            "contents": [
+              "Giant Snowdrop Seeds"
+            ]
+          },
+          {
+            "category": "Crate",
+            "contents": [
+              "Blue Iris Bulb"
+            ]
+          },
+          {
+            "category": "Barrel",
+            "contents": [
+              "Giant Snowdrop Seeds",
+              "Blue Iris Bulb"
+            ]
+          }
+        ],
+        "UniqueAreaID": "Skull Cavern Crate 1",
+        "MapName": "UndergroundMine122",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Stone"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 1000,
+          "EndTime": 1130,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [
+            "Rain",
+            "Storm"
+          ],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 0,
+    "SpringItemIndex": [],
+    "SummerItemIndex": [],
+    "FallItemIndex": [],
+    "WinterItemIndex": [],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [],
+    "CustomTileIndex": []
+  },
+  "Ore_Spawn_Settings": {
+    "Areas": [],
+    "PercentExtraSpawnsPerMiningLevel": 0,
+    "MiningLevelRequired": {},
+    "StartingSpawnChance": {
+      "Stone": 66,
+      "Geode": 8,
+      "FrozenGeode": 4,
+      "MagmaGeode": 2,
+      "Gem": 5,
+      "Copper": 21,
+      "Iron": 15,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0
+    },
+    "LevelTenSpawnChance": {},
+    "CustomTileIndex": []
+  },
+  "Monster_Spawn_Settings": {
+    "Areas": [],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [],
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {}
+  }
+}

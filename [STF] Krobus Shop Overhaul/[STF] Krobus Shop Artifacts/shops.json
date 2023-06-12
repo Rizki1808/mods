@@ -1,0 +1,25 @@
+{
+"VanillaShops":[
+{
+"ShopName":"KrobusShop",
+"AddStockAboveVanilla":"False",
+"DefaultSellPriceMultiplier": 6.0,
+"PriceMultiplierWhen": {
+"0.5": [ "f Krobus 2000" ],
+"0.75": [ "f Krobus 1000" ],
+"0.9": [ "f Krobus 500" ],
+},
+"ItemStocks":[
+//Artifacts 
+{
+"ItemType": "Object",
+"ItemNames": [ 
+"Dwarf Scroll I", 
+"Dwarf Scroll II", 
+"Dwarf Scroll III", 
+"Dwarf Scroll IV", 
+"Rare Disc",
+],
+} 
+
+]}]}

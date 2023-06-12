@@ -1,0 +1,26 @@
+﻿{
+    "Name": "Dwarven Fall Bread Bowl",
+    "Description": "A freshly baked bread bowl hollowed out to house a filling fall soup!",
+    "Category": "Cooking",
+    "Edibility": 30,
+    "EdibleIsDrink": false,
+    "Price": 2740,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+			"Object": "Dwarven Sourdough",
+			"Count": 1,
+			},
+			{
+			"Object": "Pumpkin",
+			"Count": 1,
+			},
+			{
+			"Object": "Dwarven Barley",
+			"Count": 1,
+			},
+		],
+		"IsDefault": false,
+    },
+}

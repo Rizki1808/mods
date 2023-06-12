@@ -1,0 +1,12 @@
+{
+   "Name": "Tidy Pam",
+   "Author": "Fippsie",
+   "Version": "2.0",
+   "Description": "Tidies up Pam's new house",
+   "UniqueID": "Fippsie.TinyPam",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:2306" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

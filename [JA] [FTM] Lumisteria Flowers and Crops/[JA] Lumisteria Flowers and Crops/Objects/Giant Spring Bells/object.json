@@ -1,0 +1,47 @@
+{
+    "Name": "Giant Spring Bells",
+    "Description": "A bell-shaped white flower, symbol of spring.",
+    "Category": "Flower",
+    "Edibility": -40,
+    "Price": 60,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": 
+    {
+		"Love": ["Haley", "Pam"],
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "스프링 벨 ",
+        "de": "Riesige Frühlingsglocken",
+        "fr": "Muguet Géant",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Гигантский весенний колокольчик",
+         // "tr": "",
+        "zh": "巨型牵牛花",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "봄의 상징과도 같은 종 모양의 하얀 꽃.",
+        "de": "Eine glockenförmige weiße Blume, Symbol des Frühlings.",
+        "fr": "Une fleur en clochette symbolisant le printemps.",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Нежно-голубой цветок в форме колокольчика, символ весны.",
+         // "tr": "",
+        "zh": "钟状的白花，是春天的象征",
+    },
+    "ContextTags": [
+        "flower_item",
+        "color_white",
+		"season_spring",
+    ]
+}

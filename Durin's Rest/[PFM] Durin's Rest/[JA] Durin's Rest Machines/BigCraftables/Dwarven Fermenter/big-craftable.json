@@ -1,0 +1,33 @@
+{
+	"Name": "Dwarven Fermenter",
+	"Description": "A hearty vessel where wort is held as it is fermented into beer. This is where the magic happens!",
+	"Price": 0,
+	"ProvidesLight": false,
+	"ReserveNextIndex": false,
+	"Recipe": {
+		"ResultCount": 1,
+		"Ingredients": [
+			{
+			"Object": "Wood",
+			"Count": 30,
+			},
+			{
+			"Object": "Hardwood",
+			"Count": 5,
+			},
+			{
+			"Object": "Oak Resin",
+			"Count": 1,
+			},
+			{
+			"Object": "Iron Bar",
+			"Count": 1,
+			},
+			{
+			"Object": "Durinium",
+			"Count": 1,
+			},
+		],
+		"IsDefault": false,
+	},
+}

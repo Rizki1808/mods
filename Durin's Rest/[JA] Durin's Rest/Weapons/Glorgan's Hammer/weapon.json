@@ -1,0 +1,17 @@
+{
+    "Name": "Glorgan's Hammer",
+    "Description": "Glorgan's blacksmithing tool. It's nothing special, but if its strong enough to bend iron, it should be strong enough to flatten slimes.", 
+    "Type": "Club", 
+    "MinimumDamage": 7, 
+    "MaximumDamage": 16, 
+    "Knockback": 1.5, 
+	"Speed": -20,
+    "Accuracy": 100, 
+    "Defense": 0, 
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1, 
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02, 
+    "CritMultiplier": 3, 
+    "CanSell": true,                      
+}

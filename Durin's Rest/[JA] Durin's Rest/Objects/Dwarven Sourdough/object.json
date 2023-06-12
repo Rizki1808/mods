@@ -1,0 +1,25 @@
+﻿{
+    "Name": "Dwarven Sourdough",
+    "Description": "Fluffy and sour, this bread variety is perfect for dipping in soups and making sandwiches alike!",
+    "Category": "Cooking",
+    "Edibility": 30,
+    "Price": 340,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+			"Object": "Wheat Flour",
+			"Count": 1,
+			},
+			{
+			"Object": "Dwarven Yeast",
+			"Count": 1,
+			},
+			{
+			"Object": "Dwarven Salt",
+			"Count": 1,
+			},
+		],
+		"IsDefault": false,
+    },
+}

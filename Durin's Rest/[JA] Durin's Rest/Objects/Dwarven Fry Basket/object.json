@@ -1,0 +1,35 @@
+﻿{
+    "Name": "Dwarven Fry Basket",
+    "Description": "Crispy golden battered fries in a basket. Lightly salted with a sweet and tangy fry sauce!",
+    "Category": "Cooking",
+    "Edibility": 55,
+    "EdibleIsDrink": false,
+	"EdibleBuffs": {
+		"Farming": 0,
+		"Fishing": 0,
+		"Mining": 4,
+		"Luck": 2,
+		"Foraging": 0,
+		"MaxStamina": 0,
+		"MagnetRadius": 0,
+		"Speed": 0,
+		"Defense": 0,
+		"Attack": 0,
+		"Duration": 600,
+	},
+    "Price": 2560,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+			"Object": "Durin's Fries",
+			"Count": 1,
+			},
+			{
+			"Object": "Durin's Fry Sauce",
+			"Count": 1,
+			},
+		],
+		"IsDefault": false,
+    },
+}

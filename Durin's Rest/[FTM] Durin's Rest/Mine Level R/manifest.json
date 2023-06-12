@@ -1,0 +1,11 @@
+{
+	"Name": "Durin's Rest Spawns",
+	"Author": "NoFogBob and Paul Dunstan",
+	"Description": "Spawns stuff in Durin's Rest Old Mines Level R",
+	"Version": "1.1.3",
+	"UniqueID": "NoFogBob.DurinsRestMineR",
+	"MinimumApiVersion": "3.13.0",
+	"ContentPackFor": {
+		"UniqueID": "Esca.FarmTypeManager"
+	},
+ }

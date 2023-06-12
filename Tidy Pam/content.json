@@ -1,0 +1,60 @@
+{
+   "Format": "1.4",
+   "Changes": [
+      // Fall Town
+      {
+         "Action": "EditImage",
+         "Target": "maps/fall_town",
+         "FromFile": "assets/fall_town.png",
+         "FromArea": { "X": 428, "Y": 752, "Width": 24, "Height": 16 },
+         "ToArea": { "X": 428, "Y": 752, "Width": 24, "Height": 16 },
+      },
+      
+      // Spring Town
+      {
+         "Action": "EditImage",
+         "Target": "maps/spring_town",
+         "FromFile": "assets/spring_town.png",
+         "FromArea": { "X": 428, "Y": 752, "Width": 24, "Height": 16 },
+         "ToArea": { "X": 428, "Y": 752, "Width": 24, "Height": 16 },
+      },
+   
+      // Winter Town
+      {
+         "Action": "EditImage",
+         "Target": "maps/winter_town",
+         "FromFile": "assets/winter_town.png",
+         "FromArea": { "X": 428, "Y": 752, "Width": 24, "Height": 16 },
+         "ToArea": { "X": 428, "Y": 752, "Width": 24, "Height": 16 },
+      },  
+    
+      // Summer Town
+      {
+         "Action": "EditImage",
+         "Target": "maps/summer_town",
+         "FromFile": "assets/summer_town.png",
+         "FromArea": { "X": 428, "Y": 752, "Width": 24, "Height": 16 },
+         "ToArea": { "X": 428, "Y": 752, "Width": 24, "Height": 16 },
+      },
+    
+      // Town Interior - spilled beer
+      {
+         "Action": "EditImage",
+         "Target": "maps/townInterior",
+         "FromFile": "assets/townInterior.png",
+         "FromArea": { "X": 368, "Y": 1072, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 368, "Y": 1072, "Width": 16, "Height": 16 },
+         
+      },
+       
+      // Town Interior - pack of beer cans
+      {
+         "Action": "EditImage",
+         "Target": "maps/townInterior",
+         "FromFile": "assets/townInterior.png",
+         "FromArea": { "X": 400, "Y": 1072, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 400, "Y": 1072, "Width": 16, "Height": 16 },
+         
+      },
+   ]
+}

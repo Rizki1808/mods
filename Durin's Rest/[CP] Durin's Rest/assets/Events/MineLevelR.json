@@ -1,0 +1,5 @@
+{
+			"DurinsRiddle1": "addMailReceived DurinsRiddle1Solved/end",
+			"DurinsRiddle2": "addMailReceived DurinsRiddle2Solved/end",
+			"DurinsRiddle3": "speak Tenebra \"@.  You have convinced me that you are worthy of meeting my brethren. Go back to the labyrinth and use the new portal I have made for you. It will take you to the secret forest of my people. Don't worry, I will alert them that you are coming as a friend.$h\"/addMailReceived DurinsRiddle3Solved/end",
+}

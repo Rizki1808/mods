@@ -1,0 +1,19 @@
+{
+  "events": [
+    {
+      "name": "At Olivia's cellar.",
+      "location": "Custom_JenkinsHouse",
+      "eventId": "4000004",
+      "night": false,
+      "mail": "null"
+    },
+    {
+      "name": "Dating Olivia.",
+      "location": "Custom_JenkinsHouse",
+      "eventId": "8982805",
+      "night": false,
+      "mail": "OliviaDatingLetter"
+    },
+
+  ]
+}

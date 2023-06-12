@@ -1,0 +1,71 @@
+{
+	"Changes": [
+		// Jas Dialogue
+        {
+            "LogName": "Dialogue Jas",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+                "fall_Mon8": "You know the woman in the tower? She's a witch.#$b#Aunt Marnie told me I shouldn't talk to her, but she must be lonely, living in that tower all by herself.#$b#Mr. Ginger visits her sometimes.",
+                "winter_Mon10": "Do you think Ms. Rasmodia is anything like Chrestomanci$3?#$b#How do I know her name? Mr. Ginger told me!$1#$b#Oh, I know _cats_ can't talk. But Mr. Ginger is more than a cat.#$b#What is he then? That's a secret!"
+            }
+        },
+		// Mr. Ginger Dialogue
+		{
+            "LogName": "Dialogue 6-hearts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MisterGinger",
+            "When": {
+                "HasSeenEvent |contains=50706121": true
+				},
+            "Entries": {
+				"MrG_Fairytale": "$p 910#You know the story of the Frog Prince? I asked Ras if that would work...She said 'no'.$2|Hey, if you fall out of a tree, do YOU land on your feet? Thought not! Superior species over here.$4",
+                "winter_Sun10": "Ras doesn't have many friends, but I've seen her with that recluse in the woods.#$b#You know, Linus? The man that smells like rich earth and fish-meat.",
+                "spring_Sun_inlaw_Wizard": "I'm glad Ras is no longer alone. Although I'm sure you'll find her company gets tiresome in large doses.",
+                "Sun": "Rasmodia proves quite acceptable company. Why yes, you are too, @. Acceptable. Quite acceptable.$1"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"When": { "Relationship:Wizard |contains=Engaged, Married": false },
+			"Entries": {
+				"Wizard_CatTalk": "{{i18n:mail.wizard.hearts6}} %item quest 15070 true %%[#]{{i18n:mail.hearts6}}"
+			}
+		},
+		
+		{
+            "Action": "EditData",
+            "Target": "Data/mail",
+			"When": { "Relationship:Wizard": "Married, Engaged" },
+            "Entries": {
+				"Wizard_CatTalk": "{{i18n:mail.wizard.hearts6.spouse}} %item quest 15070 true %%[#]{{i18n:mail.hearts6}}"
+            }
+        },
+		{
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                "15070": "Basic/{{i18n:quest.mrginger.1}}/{{i18n:quest.mrginger.2}}/{{i18n:quest.mrginger.3}}/-1/-1/0/-1/false"
+            }
+        },
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+				"MisterGinger1": "Do you doubt me, @? Everything is under control. I have contacts, you know.$1#$b#Well, _a_ contact, and that's Ras. But she's pretty good at getting stuff sorted.$4"
+			}
+		},
+		{
+			"LogName": "6-heart Event",
+			"Action": "EditData",
+			"Target": "Data/Events/WizardHouse",
+			"Entries": {
+				"50706121/f MisterGinger 1500/t 1800 2400/Hl Tristan_Returns/n Wizard_CatTalk/i 769": "WizardSong/-1000 -1000/farmer -100 -100 0 Wizard 3 17 2 MisterGinger 2 17 1/removeItem 769/removeQuest 15070/skippable/viewport 8 19 true/pause 1000/faceDirection Wizard 3/speak Wizard \"{{i18n:6hearts.wizard.1}}\"/pause 500/playSound cat/pause 250/speak Wizard \"{{i18n:6hearts.wizard.2}}\"/pause 500/playSound cat/pause 1000/playSound cat/speak Wizard \"{{i18n:6hearts.wizard.3}}\"/playSound cat/pause 250/speak Wizard \"{{i18n:6hearts.wizard.4}}\"/pause 500/playSound stoneStep/faceDirection MisterGinger 2/faceDirection Wizard 2/pause 250/speak Wizard \"{{i18n:6hearts.wizard.5}}\"/pause 500/playSound doorOpen/{{6heartwarp}}/move farmer 0 -4 0/pause 250/speak Wizard \"{{i18n:6hearts.wizard.6}}\"/move farmer -2 0 3/move farmer 0 -3 3/pause 500/playSound cat/pause 250/faceDirection Wizard 3/speak Wizard \"{{i18n:6hearts.wizard.7}}\"/pause 500/faceDirection Wizard 1/speak Wizard \"{{i18n:6hearts.wizard.8}}\"/pause 500/{{6heartmove}}/pause 250/playSound coin/speak Wizard \"{{i18n:6hearts.wizard.9}}\"/move Wizard 0 2 2/faceDirection farmer 2/faceDirection MisterGinger 1/pause 500/speak Wizard \"{{i18n:6hearts.wizard.10}}\"/pause 250/playSound cat/speak Wizard \"{{i18n:6hearts.wizard.11}}\"/pause 500/playSound dropItemInWater/move farmer 0 2 2/pause 250/showFrame Wizard 18/showFrame 96/pause 1000/speak Wizard \"{{i18n:6hearts.wizard.12}}\"/pause 800/emote farmer 28/faceDirection MisterGinger 1/playSound cat/pause 500/showFrame Wizard 19/pause 800/showFrame farmer 90/faceDirection Wizard 2/pause 1000/farmerEat 184/pause 4000/playSound gulp/move farmer 0 -1 2/animate farmer false true 350 104 105/pause 4000/globalFade .008/viewport -1000 -1000/stopAnimation farmer/faceDirection farmer 2/warp MisterGinger 5 18/warp Wizard 3 18 1/faceDirection Wizard 1/faceDirection MisterGinger 3/playMusic none/pause 500/viewport 8 19 true/pause 500/speak MisterGinger \"{{i18n:6hearts.13}}\"/pause 500/speak MisterGinger \"{{i18n:6hearts.14}}\"/pause 500/emote Wizard 8/pause 500/speak MisterGinger \"{{i18n:6hearts.15}}\"/pause 250/quickQuestion {{i18n:6hearts.wizard.16}}(break)emote Wizard 40\\speak Wizard \"{{i18n:6hearts.wizard.17}}\"(break)speak MisterGinger \"{{i18n:6hearts.wizard.18}}\"(break)speak MisterGinger \"{{i18n:6hearts.wizard.19}}\"(break)speak Wizard \"{{i18n:6hearts.wizard.20}}\"/pause 500/faceDirection farmer 1/pause 500/emote farmer 16/speak MisterGinger \"{{i18n:6hearts.21}}\"/pause 250/emote Wizard 12/pause 500/speak Wizard \"{{i18n:6hearts.wizard.22}}\"/pause 250/speak MisterGinger \"{{i18n:6hearts.wizard.23}}\"/emote farmer 32/pause 1000/end dialogue MisterGinger \"{{i18n:6hearts.24}}\""
+			}
+		}
+		
+	]
+}

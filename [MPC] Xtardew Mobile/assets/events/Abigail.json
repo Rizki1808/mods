@@ -1,0 +1,32 @@
+{
+  "events": [
+    {
+      "name": "First time with Abigail",
+      "location": "Custom_ForestWest",
+      "eventId": "19931",
+      "night": true,
+      "mail": "null"
+    },
+    {
+      "name": "Playing Prairie King again",
+      "location": "Saloon",
+      "eventId": "19932",
+      "night": true,
+      "mail": "null"
+    },
+    {
+      "name": "Exploring the forest with Abigail and Leah",
+      "location": "FarmHouse",
+      "eventId": "75933",
+      "night": false,
+      "mail": "null"
+    },
+    {
+      "name": "Exploring the abandoned farmhouse with your wives",
+      "location": "Custom_ForestWest",
+      "eventId": "371930",
+      "night": true,
+      "mail": "null"
+    },
+  ]
+}

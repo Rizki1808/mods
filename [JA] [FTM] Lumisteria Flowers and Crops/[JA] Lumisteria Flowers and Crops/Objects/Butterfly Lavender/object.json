@@ -1,0 +1,48 @@
+{
+    "Name": "Butterfly Lavender",
+    "Description": "A flower less fragrant than the usual lavender cultivar, but with pretty petals like a butterfly.",
+    "Category": "Flower",
+    "Edibility": 15,
+    "Price": 95,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": 
+    {
+		"Love": ["Caroline", "Pierre", "Sandy"],
+        "Like": ["Abigail", "Alex", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Robin", "Sam", "Shane", "Vincent", "Willy", "Wizard"],
+		"Dislike": ["Krobus", "Sebastian",],
+		},
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "나비 라벤더",
+        "de": "Schmetterling Lavendel",
+        "fr": "Lavande Papillon",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Лаванда 'Бабочка'",
+         // "tr": "",
+        "zh": "蝴蝶薰衣草",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "일반적인 라벤더보다 향기가 덜하지만, 나비처럼 예쁜 꽃잎이 있다.",
+        "de": "Eine Blume, die weniger duftend ist als die übliche Lavendelsorte, aber mit hübschen Blütenblättern wie ein Schmetterling.",
+        "fr": "Une fleur au parfum moins recherché que celui du cultivar habituel, mais aux pétales délicats évoquant un papillon.",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Цветки не такие ароматные, как у обычного сорта лаванды, но с красивыми лепестками, как у бабочки.",
+         // "tr": "",
+        "zh": "一种香味比通常的薰衣草略淡但花瓣像蝴蝶一样漂亮的薰衣草",
+    },
+    "ContextTags": [
+        "flower_item",
+        "color_purple",
+		"season_summer",
+    ]
+}

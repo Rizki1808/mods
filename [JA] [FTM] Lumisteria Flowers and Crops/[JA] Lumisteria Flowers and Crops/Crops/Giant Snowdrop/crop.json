@@ -1,0 +1,53 @@
+{
+    "Name": "Giant Snowdrop",
+    "Product": "Giant Snowdrop",
+    "SeedName": "Giant Snowdrop Seeds",
+    "SeedDescription": "Plant them in winter. Take 9 days to produce a flower.",
+    "Type": "Flower",
+
+    "Seasons": ["winter"],
+    "Phases": [1, 2, 2, 2, 2],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 2,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+
+    "SeedPurchasePrice": 50,
+    "SeedPurchaseRequirements": [
+    	"y 3",
+],
+    "SeedNameLocalization":
+    {
+        //"es": "",
+        "ko": "큰 설강화 씨앗",
+        "de": "Riesige Schneeglöckchensamen",
+		"fr": "Graines de Perce-neige géant.",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "i",
+        "ru": "Семена гигантского подснежника",
+        //"tr": "",
+        "zh": "巨型雪花莲种子",
+    },
+    "SeedDescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "겨울에 심는다. 꽃이 피는데 9일 걸린다.",
+        "de": "Sähen im Winter. Es brauch 9 Tage Zeit, um eine Blume zu produzieren.",
+		"fr": "À planter en hiver. Il faudra 9 jours pour arriver à maturité.",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "i",
+        "ru": "Сажайте зимой. Через 9 дней вырастает белый цветок.",
+        //"tr": "",
+        "zh": "在冬天种植，需要9天长出花朵",
+    }
+}

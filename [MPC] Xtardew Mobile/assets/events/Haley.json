@@ -1,0 +1,12 @@
+{
+  "events": [
+    {
+      "name": "Walking by the beach.",
+      "location": "farmhouse",
+      "eventId": "23817391",
+      "night": false,
+      "mail": "null"
+    },
+
+  ]
+}

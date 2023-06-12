@@ -1,0 +1,8 @@
+﻿{
+	"Name": "Dwarven Pilsner",
+	"Description": "Lower in strength around 4% ABV, Dwarven Pilsner are Clear and crisp. Distinguished by their straw color and refined, clean taste.",
+	"Category": "ArtisanGoods",
+	"Edibility": 35,
+	"EdibleIsDrink": true,
+	"Price": 1940,
+}

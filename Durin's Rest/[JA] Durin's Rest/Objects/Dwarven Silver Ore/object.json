@@ -1,0 +1,7 @@
+﻿{
+    "Name": "Dwarven Silver Ore",
+    "Description": "A rare dwarven ore that can be smelted into bars.",
+    "Category": "-15",
+    "CanSell": true,
+	"Price": 25,
+}

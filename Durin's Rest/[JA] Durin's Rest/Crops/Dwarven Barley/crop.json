@@ -1,0 +1,13 @@
+﻿{
+	"Name": "Dwarven Barley",
+	"Product": "Dwarven Barley",
+	"SeedName": "Dwarven Barley Seeds",
+	"SeedDescription": "Plant these in spring, summer or fall. Takes 4 days to mature.",
+	"Type": "Fruit",
+	"Seasons": ["spring", "summer", "fall"],
+	"Phases": [1, 1, 1, 1],
+	"RegrowthPhase": -1,
+	"HarvestWithScythe": true,
+	"TrellisCrop": false,
+	"SeedSellPrice": 5,
+}

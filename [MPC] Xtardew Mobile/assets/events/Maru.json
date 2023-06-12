@@ -1,0 +1,11 @@
+{
+  "events": [
+    {
+      "name": "Maru first time.",
+      "location": "ScienceHouse",
+      "eventId": "8372076",
+      "night": false,
+      "mail": "null"
+    },
+  ]
+}

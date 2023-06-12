@@ -1,0 +1,29 @@
+{
+"VanillaShops":[
+{
+"ShopName":"DwarfShop",
+"AddStockAboveVanilla":"False",
+"DefaultSellPriceMultiplier": 4.0,
+"PriceMultiplierWhen": {
+"0.5": [ "f Dwarf 2000" ],
+"0.75": [ "f Dwarf 1000" ],
+"0.9": [ "f Dwarf 500" ],
+},
+"ItemStocks":[
+{
+//Artifacts
+"ItemType": "Object",
+"ItemNames": [ 
+"Cave Carrot", 
+"Dwarvish Helm", 
+"Dwarf Gadget", 
+"Elvish Jewelry", 
+"Chipped Amphora", 
+],
+"Stock":20 
+}
+
+]
+}
+]
+}

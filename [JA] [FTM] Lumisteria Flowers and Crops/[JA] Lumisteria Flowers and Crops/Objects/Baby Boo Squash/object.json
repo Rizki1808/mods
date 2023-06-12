@@ -1,0 +1,47 @@
+{
+    "Name": "Baby Boo Squash",
+    "Description": "A tiny white squash.",
+    "Category": "Vegetable",
+    "Edibility": 14,
+    "Price": 66,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": 
+    {
+		"Love": ["Abigail", "Krobus", "Wizard"],
+        "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Maru", "Marnie", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Sebastian", "Shane", "Willy"],
+		"Dislike": ["Sam", "Vincent"],
+		},
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "베이비 부 스쿼시",
+        "de": "Baby Boo Kürbis",
+        "fr": "Courge Baby Boo",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Декоративная тыква 'Крошка Бу'",
+         // "tr": "",
+        "zh": "小西葫芦",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "작고 흰 호박.",
+        "de": "Ein kleiner weißer Kürbis.",
+        "fr": "Une toute petite courge blanche.",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Крошечная белая тыквочка.",
+         // "tr": "",
+        "zh": "一种白色的小西葫芦",
+    },
+    "ContextTags": [
+        "color_white",
+        "season_fall",
+    ]
+}

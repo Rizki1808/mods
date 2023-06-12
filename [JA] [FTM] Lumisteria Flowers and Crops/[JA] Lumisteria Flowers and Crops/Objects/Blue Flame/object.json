@@ -1,0 +1,47 @@
+{
+    "Name": "Blue Flame",
+    "Description": "A vivid blue flower with the shape of a flame",
+    "Category": "Flower",
+    "Edibility": 0,
+    "Price": 320,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": 
+    {
+		"Love": ["Demetrius", "Sebastian"],
+        "Like": ["Abigail", "Alex", "Caroline", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "블루 플레임",
+        "de": "Blaue Flamme",
+        "fr": "Flammèche Bleue",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Голубое пламя",
+         // "tr": "",
+        "zh": "蓝焰花",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "마치 불꽃같은 모양의 선명한 푸른색 꽃. 북방푸른꽃창포 라고도 부른다.",
+        "de": "Eine leuchtend blaue Blume in Form einer Flamme",
+        "fr": "Une fleur d'un bleu vif évoquant la forme d'une flamme",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Яркий голубой цветок, похожий на пламя.",
+         // "tr": "",
+        "zh": "鲜艳的蓝色花朵，有火焰的形状",
+    },
+    "ContextTags": [
+        "flower_item",
+        "color_blue",
+		"season_spring",
+		]
+}

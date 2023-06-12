@@ -1,0 +1,49 @@
+{
+    "Name": "Sugar Plum Foxglove",
+    "Description": "A beautiful but toxic flower. Be careful with childrens and pets.",
+    "Category": "Flower",
+    "Edibility": -100,
+    "Price": 170,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": 
+    {
+		"Love": ["Dwarf", "Krobus"],
+		"Like": ["Harvey"],
+        "Dislike": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard"],
+		"Hate": ["Jas", "Sebastian", "Vincent",],
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "디기탈리스",
+        "de": "Zuckerpflaumen Fingerhut",
+        "fr": "Digitale pourpre",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Наперстянка",
+         // "tr": "",
+        "zh": "糖梅毛地黄",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "아름답지만 독성이 있는 꽃. 어린이와 반려동물이 있는 집은 주의하세요.",
+        "de": "Eine schöne, aber giftige Blume. Seien Sie vorsichtig mit Kindern und Haustieren.",
+        "fr": "Une fleur magnifique mais toxique. Prudence avec les enfants et les animaux.",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Красивый, но ядовитый цветок. Следите, чтобы дети и домашние животные держались от него подальше!",
+         // "tr": "",
+        "zh": "一朵美丽但有毒的花，当心孩子和宠物接触到它",
+    },
+    "ContextTags": [
+        "flower_item",
+        "color_pink",
+		"season_summer",
+    ]
+}

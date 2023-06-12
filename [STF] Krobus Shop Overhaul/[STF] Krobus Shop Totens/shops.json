@@ -1,0 +1,20 @@
+{
+"VanillaShops":[
+{
+"ShopName":"KrobusShop",
+"AddStockAboveVanilla":"False",
+"DefaultSellPriceMultiplier": 6.0,
+"PriceMultiplierWhen": {
+"0.5": [ "f Krobus 2000" ],
+"0.75": [ "f Krobus 1000" ],
+"0.9": [ "f Krobus 500" ],
+},
+"ItemStocks":[
+//Totens
+{
+"ItemType": "Object",
+"StockPrice": "1500",
+"ItemIDs": [ 688, 689, 690, 261, 681, ],
+}
+
+]}]}

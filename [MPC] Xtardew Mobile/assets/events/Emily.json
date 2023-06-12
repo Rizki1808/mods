@@ -1,0 +1,19 @@
+{
+  "events": [
+
+    {
+      "name": "Helping Emily at the saloon",
+      "location": "Saloon",
+      "eventId": "2123344",
+      "night": false,
+      "mail": "null"
+    },
+    {
+      "name": "Sandy visit the valley",
+      "location": "town",
+      "eventId": "1135931",
+      "night": false,
+      "mail": "null"
+    },
+  ]
+}

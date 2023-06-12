@@ -1,0 +1,16 @@
+{ 
+"VanillaShops":[ 
+{
+"ShopName":"MarlonShop",
+"AddStockAboveVanilla":"False",
+"DefaultSellPriceMultiplier": 4.0,
+"PriceMultiplierWhen": {
+"0.5": [ "SkillLevel combat 8" ],
+"0.75": [ "SkillLevel combat 4" ],
+"0.9": [ "SkillLevel combat 2" ], },
+"ItemStocks":[
+
+{ "ItemType": "Ring",
+"ItemIds": [ 516, 517, 518, 519, 527, ], }
+
+] } ] }

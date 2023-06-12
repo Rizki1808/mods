@@ -1,0 +1,18 @@
+﻿{
+  "Name": "XtardewMobileEvents",
+  "Author": "Pseudodiego",
+  "Version": "0.1.0",
+  "Description": "Adds the Xtardew Events to the Mobile phone.",
+  "UniqueID": "Trapezohedron.XtardewMobileEvents",
+  "MinimumApiVersion": "3.5.0",
+  "ContentPackFor": {
+    "UniqueID": "aedenthorn.MobilePhone",
+    "MinimumVersion": "0.1.0"
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "aedenthorn.MobilePhone",
+      "IsRequired": true
+   },
+  ]
+}

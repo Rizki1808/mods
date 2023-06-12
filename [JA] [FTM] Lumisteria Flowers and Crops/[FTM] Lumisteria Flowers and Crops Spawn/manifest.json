@@ -1,0 +1,19 @@
+{
+  "Name": "Lumisteria Flowers and Crops Spawn",
+  "Author": "Lumisteria",
+  "Version": "1.0.5",
+  "Description": "Adding way to spawn some of the flowers in existing areas.",
+  "UniqueID": "Lumisteria.FlowersAndCropsSpawn",
+  "MinimumApiVersion": "3.7.4",
+  "UpdateKeys": ["Nexus:7110"],
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.11.0"
+  },
+	"Dependencies": [
+   {
+      "UniqueID": "Lumisteria.FlowersAndCrops",
+      "IsRequired": true
+   },
+   ]
+}

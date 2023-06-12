@@ -1,0 +1,8 @@
+﻿{
+	"Name": "Dwarven Potato Wort",
+	"Description": "An aqueous solution of extracted Potato sugars intended for fermentation.",
+	"Category": "ArtisanGoods",
+	"Edibility": 1,
+	"EdibleIsDrink": true,
+	"Price": 900,
+	"GiftTastes": {		"Dislike": ["Arwen", "Balor", "Durin", "Edrus", "Glorgan", "Tenebra", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"]	},}

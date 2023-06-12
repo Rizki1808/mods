@@ -1,0 +1,50 @@
+{
+    "Name": "Lilac Pansy",
+    "Description": "A delicate flower with a subtle fragrance, able to grow despite the cold.",
+    "Category": "Flower",
+    "Edibility": 10,
+    "Price": 50,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": 
+    {
+		"Love": ["Kent"],
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"],
+		"Dislike": ["Sebastian"],
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "라일락 팬지",
+        "de": "Lila Stiefmütterchen",
+        "fr": "Pensée violette",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Сиреневые анютины глазки",
+         // "tr": "",
+        "zh": "丁香三色堇",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "은은한 향기를 지닌 섬세한 꽃. 추위를 이겨내고 아름답게 피어났습니다.",
+        "de": "Eine zarte Blume mit einem dezenten Duft, die trotz der Kälte wachsen kann.",
+        "fr": "Une fleur délicate au parfum subtil, capable de pousser malgré le froid",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Нежный цветок с тонким ароматом, способный расти, несмотря на холод.",
+         // "tr": "",
+        "zh": "一种有淡淡香味的娇嫩花朵，尽管天气十分寒冷也能生长",
+    },
+    "ContextTags": [
+        "flower_item",
+        "edible_flower_item",
+        "color_pink",
+		"season_winter",
+		"forage_item",
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "Name": "Winter Blue Iris",
+    "Description": "A slightly perfumed flower, blossoming in winter.",
+    "Category": "Flower",
+    "Edibility": 0,
+    "Price": 380,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": 
+    {
+		"Love": ["Caroline", "Sam",],
+        "Like": ["Abigail", "Alex", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Vincent", "Willy", "Wizard"],
+		"Dislike": ["Sebastian"],
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "푸른 겨울 붓꽃",
+        "de": "Winterblaue Iris",
+        "fr": "Iris d'hiver bleu",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Зимний голубой ирис",
+         // "tr": "",
+        "zh": "冬季蓝色鸢尾花",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "겨울철에 피어난 향기로운 꽃.",
+        "de": "Eine leicht parfümierte Blume, die im Winter blüht.",
+        "fr": "Une fleur au parfum léger, s'épanouissant en hiver.",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Нежный душистый цветок, распускающийся только зимой.",
+         // "tr": "",
+        "zh": "一种略带香味的花，会在冬天绽放",
+    },
+    "ContextTags": [
+        "flower_item",
+        "color_blue",
+		"season_winter",
+    ]
+}

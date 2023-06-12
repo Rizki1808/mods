@@ -1,0 +1,448 @@
+{
+  "Format": "1.7",
+  
+  "ConfigSchema": {
+    "Brown Cow": {"AllowValues": "BeltedBlack, BeltedBrown, BeltedDBrown, BeltedGrey, BeltedLGrey, HerefordBlack, HerefordBrown, HerefordDBrown, HerefordGrey, HerefordLGrey, HornedBlack, HornedBlonde, HornedBrown, HornedDBrown, HornedGrey, HornedLBrown, HornedLGrey, HornedPale, HornedVanilla, HornedWhite, SolidBlack, SolidBlonde, SolidBrown, SolidDBrown, SolidGrey, SolidLBrown, SolidLGrey, SolidPale, SolidVanilla, SolidWhite, SpottedBlack, SpottedBrown, SpottedDBrown, SpottedGrey, SpottedLGrey, DeerBlack, DeerBlonde, DeerBrown, DeerDBrown, DeerGrey, DeerLBrown, DeerLGrey, DeerPale, DeerVanilla, DeerWhite, False",
+	"Default": "SpottedBrown"},
+	
+    "White Cow": {"AllowValues": "BeltedBlack, BeltedBrown, BeltedDBrown, BeltedGrey, BeltedLGrey, HerefordBlack, HerefordBrown, HerefordDBrown, HerefordGrey, HerefordLGrey, HornedBlack, HornedBlonde, HornedBrown, HornedDBrown, HornedGrey, HornedLBrown, HornedLGrey, HornedPale, HornedVanilla, HornedWhite, SolidBlack, SolidBlonde, SolidBrown, SolidDBrown, SolidGrey, SolidLBrown, SolidLGrey, SolidPale, SolidVanilla, SolidWhite, SpottedBlack, SpottedBrown, SpottedDBrown, SpottedGrey, SpottedLGrey, DeerBlack, DeerBlonde, DeerBrown, DeerDBrown, DeerGrey, DeerLBrown, DeerLGrey, DeerPale, DeerVanilla, DeerWhite, False",
+	"Default": "SpottedGrey"},
+	
+	"Goat": {"AllowValues": "BeardBlack, BeardBlonde, BeardBrown, BeardDBrown, BeardGrey, BeardLBrown, BeardLGrey, BeardPale, BeardVanilla, BeardWhite, BeardlessBlack, BeardlessBlonde, BeardlessBrown, BeardlessDBrown, BeardlessGrey, BeardlessLBrown, BeardlessLGrey, BeardlessPale, BeardlessVanilla, BeardlessWhite, HornedBlack, HornedBLonde, HornedBrown, HornedDBrown, HornedGrey, HornedLBrown, HornedLGrey, HornedPale, HornedVanilla, HornedWhite, HornlessBlack, HornlessBlonde, HornlessBrown, HornlessDBrown, HornlessGrey, HornlessLBrown, HornlessLGrey, HornlessPale, HornlessVanilla, HornlessWhite, PointedBlack, PointedBrown, PointedDBrown, PointedGrey, PointedLGrey, SwissBlack, SwissBrown, SwissDBrown, SwissGrey, SwissLGrey, DeerBlack, DeerBlonde, DeerBrown, DeerDBrown, DeerGrey, DeerLBrown, DeerLGrey, DeerPale, DeerVanilla, DeerWhite, False",
+	"Default": "HornedBlack"},
+	
+	"Sheep": {"AllowValues": "PointedBlack, PointedBrown, PointedDBrown, PointedGrey, PointedLGrey, SolidBlack, SolidBlonde, SolidBrown, SolidDBrown, SolidGrey, SolidLBrown, SolidLGrey, SolidPale, SolidVanilla, SolidWhite, AlpacaBlack, AlpacaBlonde, AlpacaBrown, AlpacaDBrown, AlpacaGrey, AlpacaLBrown, AlpacaLGrey, AlpacaPale, AlpacaVanilla, AlpacaWhite, False",
+	"Default": "SolidPale"},
+	
+	"Pig": {"AllowValues": "BeltedBlack, BeltedBrown, BeltedDBrown, BeltedGrey, BeltedLGrey, HerefordBlack, HerefordBrown, HerefordDBrown, HerefordGrey, HerefordLGrey, SocksBlack, SocksBrown, SocksDBrown, SocksGrey, SocksLGrey, SolidBlack, SolidBlonde, SolidBrown, SolidDBrown, SolidGrey, SolidLBrown, SolidLGrey, SolidPale, SolidVanilla, SolidWhite, SolidPink, SpottedBlonde, SpottedBrown, SpottedDBrown, SpottedGrey, SpottedLBrown, SpottedLGrey, SpottedPale, SpottedVanilla, SpottedWhite, SpottedPink, DeerBlack, DeerBlonde, DeerBrown, DeerDBrown, DeerGrey, DeerLBrown, DeerLGrey, DeerPale, DeerVanilla, DeerWhite, False",
+	"Default": "SolidPink"},
+	
+	"Ostrich": {"AllowValues": "Black, Blonde, Brown, DBrown, Grey, LBrown, LGrey, Pale, Vanilla",
+	"Default": "Black"},
+	
+	"ShopIcons": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"WoolRecolor": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"ClothRecolor": {"AllowValues": "True, False",
+	"Default": "True"},
+
+	},
+	
+  "Changes": [
+       // Brown Cow
+       {
+          "Action": "Load",
+          "Target": "Animals/Brown Cow",
+          "FromFile": "assets/Cow/{{Brown Cow}}.png",
+		  "When": {
+		  "Brown Cow": "BeltedBlack, BeltedBrown, BeltedDBrown, BeltedGrey, BeltedLGrey, HerefordBlack, HerefordBrown, HerefordDBrown, HerefordGrey, HerefordLGrey, HornedBlack, HornedBlonde, HornedBrown, HornedDBrown, HornedGrey, HornedLBrown, HornedLGrey, HornedPale, HornedVanilla, HornedWhite, SolidBlack, SolidBlonde, SolidBrown, SolidDBrown, SolidGrey, SolidLBrown, SolidLGrey, SolidPale, SolidVanilla, SolidWhite, SpottedBlack, SpottedBrown, SpottedDBrown, SpottedGrey, SpottedLGrey, DeerBlack, DeerBlonde, DeerBrown, DeerDBrown, DeerGrey, DeerLBrown, DeerLGrey, DeerPale, DeerVanilla, DeerWhite",
+		  }
+       },
+	   
+	    // BabyBrown Cow
+       {
+          "Action": "Load",
+          "Target": "Animals/BabyBrown Cow",
+          "FromFile": "assets/Cow/{{Brown Cow}}Baby.png",
+		  "When": {
+		  "Brown Cow": "BeltedBlack, BeltedBrown, BeltedDBrown, BeltedGrey, BeltedLGrey, HerefordBlack, HerefordBrown, HerefordDBrown, HerefordGrey, HerefordLGrey, HornedBlack, HornedBlonde, HornedBrown, HornedDBrown, HornedGrey, HornedLBrown, HornedLGrey, HornedPale, HornedVanilla, HornedWhite, SolidBlack, SolidBlonde, SolidBrown, SolidDBrown, SolidGrey, SolidLBrown, SolidLGrey, SolidPale, SolidVanilla, SolidWhite, SpottedBlack, SpottedBrown, SpottedDBrown, SpottedGrey, SpottedLGrey, DeerBlack, DeerBlonde, DeerBrown, DeerDBrown, DeerGrey, DeerLBrown, DeerLGrey, DeerPale, DeerVanilla, DeerWhite",
+		  }
+       },
+	   
+	   
+	   // White Cow
+       {
+          "Action": "Load",
+          "Target": "Animals/White Cow",
+          "FromFile": "assets/Cow/{{White Cow}}.png",
+		  "When": {
+		  "White Cow": "BeltedBlack, BeltedBrown, BeltedDBrown, BeltedGrey, BeltedLGrey, HerefordBlack, HerefordBrown, HerefordDBrown, HerefordGrey, HerefordLGrey, HornedBlack, HornedBlonde, HornedBrown, HornedDBrown, HornedGrey, HornedLBrown, HornedLGrey, HornedPale, HornedVanilla, HornedWhite, SolidBlack, SolidBlonde, SolidBrown, SolidDBrown, SolidGrey, SolidLBrown, SolidLGrey, SolidPale, SolidVanilla, SolidWhite, SpottedBlack, SpottedBrown, SpottedDBrown, SpottedGrey, SpottedLGrey, DeerBlack, DeerBlonde, DeerBrown, DeerDBrown, DeerGrey, DeerLBrown, DeerLGrey, DeerPale, DeerVanilla, DeerWhite",
+		  }
+       },
+	   
+	    // BabyWhite Cow
+       {
+          "Action": "Load",
+          "Target": "Animals/BabyWhite Cow",
+          "FromFile": "assets/Cow/{{White Cow}}Baby.png",
+		  "When": {
+		  "White Cow": "BeltedBlack, BeltedBrown, BeltedDBrown, BeltedGrey, BeltedLGrey, HerefordBlack, HerefordBrown, HerefordDBrown, HerefordGrey, HerefordLGrey, HornedBlack, HornedBlonde, HornedBrown, HornedDBrown, HornedGrey, HornedLBrown, HornedLGrey, HornedPale, HornedVanilla, HornedWhite, SolidBlack, SolidBlonde, SolidBrown, SolidDBrown, SolidGrey, SolidLBrown, SolidLGrey, SolidPale, SolidVanilla, SolidWhite, SpottedBlack, SpottedBrown, SpottedDBrown, SpottedGrey, SpottedLGrey, DeerBlack, DeerBlonde, DeerBrown, DeerDBrown, DeerGrey, DeerLBrown, DeerLGrey, DeerPale, DeerVanilla, DeerWhite",
+		  }
+       },
+	   
+	   
+	   // Goat
+       {
+          "Action": "Load",
+          "Target": "Animals/Goat",
+          "FromFile": "assets/Goat/{{Goat}}.png",
+		  "When": {
+		  "Goat": "BeardBlack, BeardBlonde, BeardBrown, BeardDBrown, BeardGrey, BeardLBrown, BeardLGrey, BeardPale, BeardVanilla, BeardWhite, BeardlessBlack, BeardlessBlonde, BeardlessBrown, BeardlessDBrown, BeardlessGrey, BeardlessLBrown, BeardlessLGrey, BeardlessPale, BeardlessVanilla, BeardlessWhite, HornedBlack, HornedBLonde, HornedBrown, HornedDBrown, HornedGrey, HornedLBrown, HornedLGrey, HornedPale, HornedVanilla, HornedWhite, HornlessBlack, HornlessBlonde, HornlessBrown, HornlessDBrown, HornlessGrey, HornlessLBrown, HornlessLGrey, HornlessPale, HornlessVanilla, HornlessWhite, PointedBlack, PointedBrown, PointedDBrown, PointedGrey, PointedLGrey, SwissBlack, SwissBrown, SwissDBrown, SwissGrey, SwissLGrey, DeerBlack, DeerBlonde, DeerBrown, DeerDBrown, DeerGrey, DeerLBrown, DeerLGrey, DeerPale, DeerVanilla, DeerWhite",
+		  }
+       },
+	   
+	    // BabyGoat
+       {
+          "Action": "Load",
+          "Target": "Animals/BabyGoat",
+          "FromFile": "assets/Goat/{{Goat}}Baby.png",
+		  "When": {
+		  "Goat": "BeardBlack, BeardBlonde, BeardBrown, BeardDBrown, BeardGrey, BeardLBrown, BeardLGrey, BeardPale, BeardVanilla, BeardWhite, BeardlessBlack, BeardlessBlonde, BeardlessBrown, BeardlessDBrown, BeardlessGrey, BeardlessLBrown, BeardlessLGrey, BeardlessPale, BeardlessVanilla, BeardlessWhite, HornedBlack, HornedBLonde, HornedBrown, HornedDBrown, HornedGrey, HornedLBrown, HornedLGrey, HornedPale, HornedVanilla, HornedWhite, HornlessBlack, HornlessBlonde, HornlessBrown, HornlessDBrown, HornlessGrey, HornlessLBrown, HornlessLGrey, HornlessPale, HornlessVanilla, HornlessWhite, PointedBlack, PointedBrown, PointedDBrown, PointedGrey, PointedLGrey, SwissBlack, SwissBrown, SwissDBrown, SwissGrey, SwissLGrey, DeerBlack, DeerBlonde, DeerBrown, DeerDBrown, DeerGrey, DeerLBrown, DeerLGrey, DeerPale, DeerVanilla, DeerWhite",
+		  }
+       },
+	   
+	   
+	    // Sheep
+       {
+          "Action": "Load",
+          "Target": "Animals/Sheep",
+          "FromFile": "assets/Sheep/{{Sheep}}.png",
+		  "When": {
+		  "Sheep": "PointedBlack, PointedBrown, PointedDBrown, PointedGrey, PointedLGrey, SolidBlack, SolidBlonde, SolidBrown, SolidDBrown, SolidGrey, SolidLBrown, SolidLGrey, SolidPale, SolidVanilla, SolidWhite, AlpacaBlack, AlpacaBlonde, AlpacaBrown, AlpacaDBrown, AlpacaGrey, AlpacaLBrown, AlpacaLGrey, AlpacaPale, AlpacaVanilla, AlpacaWhite",
+		  }
+       },
+	   
+	   // ShearedSheep
+       {
+          "Action": "Load",
+          "Target": "Animals/ShearedSheep",
+          "FromFile": "assets/Sheep/{{Sheep}}Sheared.png",
+		  "When": {
+		  "Sheep": "PointedBlack, PointedBrown, PointedDBrown, PointedGrey, PointedLGrey, SolidBlack, SolidBlonde, SolidBrown, SolidDBrown, SolidGrey, SolidLBrown, SolidLGrey, SolidPale, SolidVanilla, SolidWhite, AlpacaBlack, AlpacaBlonde, AlpacaBrown, AlpacaDBrown, AlpacaGrey, AlpacaLBrown, AlpacaLGrey, AlpacaPale, AlpacaVanilla, AlpacaWhite",
+		  }
+       },
+	   
+	    // BabySheep
+       {
+          "Action": "Load",
+          "Target": "Animals/BabySheep",
+          "FromFile": "assets/Sheep/{{Sheep}}Baby.png",
+		  "When": {
+		  "Sheep": "PointedBlack, PointedBrown, PointedDBrown, PointedGrey, PointedLGrey, SolidBlack, SolidBlonde, SolidBrown, SolidDBrown, SolidGrey, SolidLBrown, SolidLGrey, SolidPale, SolidVanilla, SolidWhite, AlpacaBlack, AlpacaBlonde, AlpacaBrown, AlpacaDBrown, AlpacaGrey, AlpacaLBrown, AlpacaLGrey, AlpacaPale, AlpacaVanilla, AlpacaWhite",
+		  }
+       },
+	   
+	   
+	   // Pig
+       {
+          "Action": "Load",
+          "Target": "Animals/Pig",
+          "FromFile": "assets/Pig/{{Pig}}.png",
+		  "When": {
+		  "Pig": "BeltedBlack, BeltedBrown, BeltedDBrown, BeltedGrey, BeltedLGrey, HerefordBlack, HerefordBrown, HerefordDBrown, HerefordGrey, HerefordLGrey, SocksBlack, SocksBrown, SocksDBrown, SocksGrey, SocksLGrey, SolidBlack, SolidBlonde, SolidBrown, SolidDBrown, SolidGrey, SolidLBrown, SolidLGrey, SolidPale, SolidVanilla, SolidWhite, SolidPink, SpottedBlonde, SpottedBrown, SpottedDBrown, SpottedGrey, SpottedLBrown, SpottedLGrey, SpottedPale, SpottedVanilla, SpottedWhite, SpottedPink, DeerBlack, DeerBlonde, DeerBrown, DeerDBrown, DeerGrey, DeerLBrown, DeerLGrey, DeerPale, DeerVanilla, DeerWhite",
+		  }
+       },
+	   
+	    // BabyPig
+       {
+          "Action": "Load",
+          "Target": "Animals/BabyPig",
+          "FromFile": "assets/Pig/{{Pig}}Baby.png",
+		  "When": {
+		  "Pig": "BeltedBlack, BeltedBrown, BeltedDBrown, BeltedGrey, BeltedLGrey, HerefordBlack, HerefordBrown, HerefordDBrown, HerefordGrey, HerefordLGrey, SocksBlack, SocksBrown, SocksDBrown, SocksGrey, SocksLGrey, SolidBlack, SolidBlonde, SolidBrown, SolidDBrown, SolidGrey, SolidLBrown, SolidLGrey, SolidPale, SolidVanilla, SolidWhite, SolidPink, SpottedBlonde, SpottedBrown, SpottedDBrown, SpottedGrey, SpottedLBrown, SpottedLGrey, SpottedPale, SpottedVanilla, SpottedWhite, SpottedPink, DeerBlack, DeerBlonde, DeerBrown, DeerDBrown, DeerGrey, DeerLBrown, DeerLGrey, DeerPale, DeerVanilla, DeerWhite",
+		  }
+       },
+	   
+       // Ostrich
+       {
+          "Action": "EditImage",
+          "Target": "Animals/Ostrich",
+          "FromFile": "assets/Ostrich/{{Ostrich}}.png",
+		  "When": {
+		  "Ostrich": "Black, Blonde, Brown, DBrown, Grey, LBrown, LGrey, Pale, Vanilla",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Animals/BabyOstrich",
+          "FromFile": "assets/Ostrich/{{Ostrich}}Baby.png",
+		  "When": {
+		  "Ostrich": "Black, Blonde, Brown, DBrown, Grey, LBrown, LGrey, Pale, Vanilla",
+		  }
+       },
+	   
+	   //Shop Icons
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/ShopIcons.png",
+          "FromArea": { "X": 32, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 32, "Y": 448, "Width": 64, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "ShopIcons": "True",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/ShopIcons.png",
+          "FromArea": { "X": 32, "Y": 16, "Width": 32, "Height": 16 }, 
+          "ToArea": { "X": 32, "Y": 464, "Width": 32, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "ShopIcons": "True",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/ShopIcons.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 32, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 480, "Width": 32, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "ShopIcons": "True",
+		  }
+       },
+	   
+	   //Items
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Wool_Black.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 128, "Y": 288, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "WoolRecolor": "True",
+		  "Sheep": "PointedBlack, SolidBlack, AlpacaBlack",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Wool_DarkBrown.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 128, "Y": 288, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "WoolRecolor": "True",
+		  "Sheep": "PointedDBrown, SolidDBrown, AlpacaDBrown",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Wool_Brown.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 128, "Y": 288, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "WoolRecolor": "True",
+		  "Sheep": "PointedBrown, SolidBrown, AlpacaBrown",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Wool_LightBrown.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 128, "Y": 288, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "WoolRecolor": "True",
+		  "Sheep": "SolidLBrown, AlpacaLBrown",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Wool_Vanilla.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 128, "Y": 288, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "WoolRecolor": "True",
+		  "Sheep": "SolidVanilla, AlpacaVanilla",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Wool_Blonde.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 128, "Y": 288, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "WoolRecolor": "True",
+		  "Sheep": "SolidBlonde, AlpacaBlonde",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Wool_Pale.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 128, "Y": 288, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "WoolRecolor": "True",
+		  "Sheep": "SolidPale, AlpacaPale",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Wool_White.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 128, "Y": 288, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "WoolRecolor": "True",
+		  "Sheep": "SolidWhite, AlpacaWhite",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Wool_LightGrey.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 128, "Y": 288, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "WoolRecolor": "True",
+		  "Sheep": "PointedLGrey, SolidLGrey, AlpacaLGrey",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Wool_Grey.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 128, "Y": 288, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "WoolRecolor": "True",
+		  "Sheep": "PointedGrey, SolidGrey, AlpacaGrey",
+		  }
+       },
+	   
+	   
+	   
+	   
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Cloth_Black.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 320, "Y": 272, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "ClothRecolor": "True",
+		  "Sheep": "PointedBlack, SolidBlack, AlpacaBlack",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Cloth_DarkBrown.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 320, "Y": 272, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "ClothRecolor": "True",
+		  "Sheep": "PointedDBrown, SolidDBrown, AlpacaDBrown",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Cloth_Brown.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 320, "Y": 272, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "ClothRecolor": "True",
+		  "Sheep": "PointedBrown, SolidBrown, AlpacaBrown",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Cloth_LightBrown.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 320, "Y": 272, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "ClothRecolor": "True",
+		  "Sheep": "SolidLBrown, AlpacaLBrown",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Cloth_Vanilla.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 320, "Y": 272, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "ClothRecolor": "True",
+		  "Sheep": "SolidVanilla, AlpacaVanilla",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Cloth_Blonde.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 320, "Y": 272, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "ClothRecolor": "True",
+		  "Sheep": "SolidBlonde, AlpacaBlonde",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Cloth_Pale.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 320, "Y": 272, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "ClothRecolor": "True",
+		  "Sheep": "SolidPale, AlpacaPale",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Cloth_White.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 320, "Y": 272, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "ClothRecolor": "True",
+		  "Sheep": "SolidWhite, AlpacaWhite",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Cloth_LightGrey.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 320, "Y": 272, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "ClothRecolor": "True",
+		  "Sheep": "PointedLGrey, SolidLGrey, AlpacaLGrey",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Cloth_Grey.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 320, "Y": 272, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "ClothRecolor": "True",
+		  "Sheep": "PointedGrey, SolidGrey, AlpacaGrey",
+		  }
+       },
+    ]
+}

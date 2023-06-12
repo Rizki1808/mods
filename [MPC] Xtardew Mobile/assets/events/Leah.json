@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "name": "Arriving home after work",
+      "location": "FarmHouse",
+      "eventId": "1237",
+      "night": true,
+      "mail": "null"
+    },
+    {
+      "name": "Painting With Leah and Sophia",
+      "location": "Forest",
+      "eventId": "3091462",
+      "night": false,
+      "mail": "null"
+    },
+  ]
+}

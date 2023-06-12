@@ -1,0 +1,36 @@
+{
+"VanillaShops":[
+{
+"ShopName":"DwarfShop",
+"AddStockAboveVanilla":"False",
+"DefaultSellPriceMultiplier": 4.0,
+"PriceMultiplierWhen": {
+"0.5": [ "f Dwarf 2000" ],
+"0.75": [ "f Dwarf 1000" ],
+"0.9": [ "f Dwarf 500" ],
+},
+"ItemStocks":[
+{
+//Jewelry
+"ItemType": "Object",
+"ItemNames": [
+"Quartz", 
+"Fire Quartz", 
+"Earth Crystal", 
+"Frozen Tear", 
+"Topaz", 
+"Amethyst", 
+"Aquamarine",
+"Jade", 
+"Ruby",
+"Emerald", 
+"Diamond", 
+"Prismatic Shard", 
+],
+"Stock":20 
+}
+
+]
+}
+]
+}

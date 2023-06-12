@@ -1,0 +1,25 @@
+{
+	"Name": "Dwarven Lauter Tun",
+	"Description": "A vessel for separating the wort from the solids of the mash.",
+	"Price": 0,
+	"ProvidesLight": false,
+	"ReserveNextIndex": false,
+	"Recipe": {
+		"ResultCount": 1,
+		"Ingredients": [
+			{
+			"Object": "Iron Bar",
+			"Count": 1,
+			},
+			{
+			"Object": "Iridium Bar",
+			"Count": 1,
+			},
+			{
+			"Object": "Durinium",
+			"Count": 1,
+			},
+		],
+		"IsDefault": false,
+	},
+}

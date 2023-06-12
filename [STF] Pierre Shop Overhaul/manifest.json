@@ -1,0 +1,13 @@
+{
+"Name": "[STF] Pierre Shop Overhaul",
+"Author": "LoganDoidao",
+"Version": "1.4.0",
+"Description": "Pierre sells much more stuff.",
+"UniqueID": "LoganDoidao.PierreShopOverhaul",
+"MinimumApiVersion": "3.4.0",
+"UpdateKeys": [ "Nexus:10563" ],
+"ContentPackFor": {
+"UniqueID": "Cherry.ShopTileFramework",
+"MinimumVersion": "1.0.5"
+  }
+}

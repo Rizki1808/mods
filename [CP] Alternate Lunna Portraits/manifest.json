@@ -1,0 +1,23 @@
+{
+    "Name": "AlternatePortraits Lunna",
+    "Author": "Choooogoooo",
+    "Version": "1.0",
+    "Description": "Replaces Lunna's portraits with a different style",
+    "UniqueID": "Choooogoooo.AlternatePortraitsLunna",
+    "MinimumApiVersion": "3.3.2",
+    "UpdateKeys": ["Nexus:???"],
+    "ContentPackFor":
+    {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    },
+    "Dependencies": [
+    {
+        "UniqueID": "Rafseazz.LunnaCP",
+        "IsRequired": true
+    },
+	{
+		"UniqueID": "Rafseazz.SeasonalLASV",
+		"IsRequired": false
+	}
+	],
+}

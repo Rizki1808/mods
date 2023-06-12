@@ -1,0 +1,34 @@
+﻿{
+    "Name": "Dwarven Deluxe Bread Bowl",
+    "Description": "A freshly baked bread bowl hollowed out to house a delicious deluxe soup!",
+    "Category": "Cooking",
+    "Edibility": 50,
+    "EdibleIsDrink": false,
+    "Price": 4560,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+			"Object": "Dwarven Sourdough",
+			"Count": 1,
+			},
+			{
+			"Object": "Nubroot",
+			"Count": 1,
+			},
+			{
+			"Object": "Morel",
+			"Count": 1,
+			},
+			{
+			"Object": "Kale",
+			"Count": 1,
+			},
+			{
+			"Object": "Tomato",
+			"Count": 1,
+			},
+		],
+		"IsDefault": false,
+    },
+}

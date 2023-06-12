@@ -1,0 +1,26 @@
+{
+    "Name": "Romanceable Rasmodia Xtardew",
+    "Author": "Pseudodiego",
+    "Version": "1.0",
+    "Description": "Xtardew Romanceable Rasmodia.",
+    "UniqueID": "Pseudodiego.XtardewValleyRasmodia",
+    "UpdateKeys": [""],
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+      "Dependencies": [
+   {
+      "UniqueID": "Nom0ri.RomRas",
+      "IsRequired": true
+ },
+   {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": true
+ },
+{
+	"UniqueID": "spacechase0.JsonAssets",
+	"IsRequired": true,
+},
+]
+}
+

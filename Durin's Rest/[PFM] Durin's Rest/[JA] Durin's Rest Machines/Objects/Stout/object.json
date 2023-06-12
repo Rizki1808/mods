@@ -1,0 +1,8 @@
+﻿{
+	"Name": "Dwarven Stout",
+	"Description": "Despite the dark color, Dwarven Stouts are a very light beer around 4% ABV. Distinguished by their deep brown or black color and a distinct roasted character reminiscent of coffee.",
+	"Category": "ArtisanGoods",
+	"Edibility": 35,
+	"EdibleIsDrink": true,
+	"Price": 2000,
+}

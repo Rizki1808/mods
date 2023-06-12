@@ -1,0 +1,13 @@
+{
+"Name": "[STF] Marnie Shop Relics",
+"Author": "LoganDoidao",
+"Version": "1.3.0",
+"Description": "Marnie sells some relics .",
+"UniqueID": "LoganDoidao.MarnieShopRelics",
+"MinimumApiVersion": "3.4.0",
+"UpdateKeys": [ "Nexus:10556" ],
+"ContentPackFor": {
+"UniqueID": "Cherry.ShopTileFramework",
+"MinimumVersion": "1.0.5"
+  }
+}

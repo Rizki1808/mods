@@ -1,0 +1,50 @@
+{
+    "Name": "Purple Pansy",
+    "Description": "A delicate flower with a subtle fragrance.",
+    "Category": "Flower",
+    "Edibility": 10,
+    "Price": 50,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": 
+    {
+        "Love": ["Jas", "Sandy"],
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Vincent", "Willy", "Wizard"],
+		"Dislike": ["Sebastian"],
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "보라색 팬지",
+        "de": "Lila Stiefmütterchen",
+        "fr": "Pensée violette",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Фиолетовые анютины глазки",
+         // "tr": "",
+        "zh": "紫三色堇花",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "은은한 향기가 나는 섬세한 꽃.",
+        "de": "Eine zarte Blume mit einem dezenten Duft.",
+        "fr": "Une fleur délicate au parfum subtil",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+        //"pt": "",
+        "ru": "Нежный цветок с тонким ароматом.",
+         // "tr": "",
+        "zh": "一朵精美的花，带有淡淡的香味",
+    },
+    "ContextTags": [
+        "flower_item",
+        "edible_flower_item",
+        "color_purple",
+		"season_spring",
+		"forage_item",
+    ]
+}

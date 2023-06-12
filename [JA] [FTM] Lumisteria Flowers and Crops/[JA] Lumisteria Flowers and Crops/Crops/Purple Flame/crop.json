@@ -1,0 +1,53 @@
+{
+    "Name": "Purple Flame",
+    "Product": "Purple Flame",
+    "SeedName": "Purple Flame Seeds",
+    "SeedDescription": "Plant them in fall. Take 8 days to produce a beautiful flower.",
+    "Type": "Flower",
+
+    "Seasons": ["fall"],
+    "Phases": [1, 2, 2, 3],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+
+    "SeedPurchasePrice": 180,
+    "SeedPurchaseRequirements": [
+    	"y 4",
+],
+    "SeedNameLocalization":
+    {
+        //"es": "",
+        "ko": "퍼플 플레임 씨앗",
+        "de": "Lila Flammensamen",
+		"fr": "Graines de flammèches pourpre",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "i",
+        "ru": "Семена пурпурного пламени",
+        //"tr": "",
+        "zh": "紫焰花种子",
+    },
+    "SeedDescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "가을에 심는다. 꽃이 피는데 8일 걸린다.",
+        "de": "Sähen im Herbst. Es brauch 8 Tage Zeit, um eine schöne Blume zu produzieren.",
+		"fr": "À planter en automne. Il faudra 8 jours pour arriver à maturité.",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "i",
+        "ru": "Сажайте осенью. Через 8 дней вырастает красивый пурпурный цветок.",
+        //"tr": "",
+        "zh": "在秋天种植，需要8天长出美丽的花朵",
+    }
+}
