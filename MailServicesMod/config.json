@@ -15,7 +15,16 @@
   "ShowDialogOnItemDelivery": false,
   "DisablePerPlayerConfig": false,
   "EnableAskToUpgradeTool": false,
-  "PlayerRecoveryConfig": {},
+  "PlayerRecoveryConfig": {
+    "-1468848485565221229": {
+      "PlayerName": "Wahyudi",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    }
+  },
   "DisableRecoveryConfigInGameChanges": false,
   "EnableRecoveryService": false,
   "RecoverAllItems": false,

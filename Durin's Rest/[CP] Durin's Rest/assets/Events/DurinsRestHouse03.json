@@ -1,3 +1,0 @@
-{
-	"123452011/f Glorgan 250/f Balor 250/f Arwen 250/f Durin 250/f Edrus 250/n DRStartHospQuest": "continue/6 17/farmer 6 15 3 Durin 5 20 0/fade unfade/Move Durin 0 -2 1 false/faceDirection 1 1/speak Durin \"Well done @$h!#$b#You'll be a mighty fine new addition to my sleepy town of Rest.#$b#I've sent a bed to yer post box to get you started but here's a bottle of wine as a housewarming gift.$k#$b#Come back to the pub for one more drink and then head down to your new home and get started decorating!$h\",pause 2000/end position 6 15/faceDirection farmer 3/removeQuest 123455000/addMailReceived DurinsRestQ1bMail/end",
-}

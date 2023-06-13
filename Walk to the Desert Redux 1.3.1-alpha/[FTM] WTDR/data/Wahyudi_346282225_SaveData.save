@@ -1,0 +1,196 @@
+{
+  "WeatherForYesterday": "Rain",
+  "LNOSCounter": {
+    "MeadowBlock": 1
+  },
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Custom_WTDR_ForestRoad",
+      "Name": null,
+      "Tile": "9, 0",
+      "Type": "ResourceClump",
+      "ID": 672,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WTDR_Meadow",
+      "Name": "Daffodil",
+      "Tile": "8, 8",
+      "Type": "Forage",
+      "ID": 18,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WTDR_Meadow",
+      "Name": "Common Mushroom",
+      "Tile": "15, 9",
+      "Type": "Forage",
+      "ID": 404,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WTDR_Meadow",
+      "Name": "Daffodil",
+      "Tile": "14, 11",
+      "Type": "Forage",
+      "ID": 18,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WTDR_Meadow",
+      "Name": "Blue Jazz",
+      "Tile": "10, 9",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WTDR_Meadow",
+      "Name": "Tulip",
+      "Tile": "16, 6",
+      "Type": "Forage",
+      "ID": 591,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WTDR_Meadow",
+      "Name": "Blue Jazz",
+      "Tile": "13, 11",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WTDR_Meadow",
+      "Name": "Blue Jazz",
+      "Tile": "8, 13",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WTDR_GhostTown",
+      "Name": "Artifact Spot",
+      "Tile": "31, 22",
+      "Type": "Forage",
+      "ID": 590,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WTDR_GhostTown",
+      "Name": "Artifact Spot",
+      "Tile": "15, 20",
+      "Type": "Forage",
+      "ID": 590,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WTDR_GhostTown",
+      "Name": "Artifact Spot",
+      "Tile": "7, 10",
+      "Type": "Forage",
+      "ID": 590,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WTDR_GhostTown",
+      "Name": "Artifact Spot",
+      "Tile": "25, 17",
+      "Type": "Forage",
+      "ID": 590,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WTDR_GhostTown",
+      "Name": "Artifact Spot",
+      "Tile": "28, 13",
+      "Type": "Forage",
+      "ID": 590,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WTDR_Interchange",
+      "Name": "Artifact Spot",
+      "Tile": "8, 21",
+      "Type": "Forage",
+      "ID": 590,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WTDR_Interchange",
+      "Name": "Artifact Spot",
+      "Tile": "10, 20",
+      "Type": "Forage",
+      "ID": 590,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WTDR_Interchange",
+      "Name": "Artifact Spot",
+      "Tile": "14, 19",
+      "Type": "Forage",
+      "ID": 590,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_WTDR_ForestRoad",
+      "Name": "Cherry",
+      "Tile": "5, 9",
+      "Type": "Forage",
+      "ID": 638,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

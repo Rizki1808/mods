@@ -1,25 +1,17 @@
 {
-  "ForageSpawnEnabled": true,
+  "ForageSpawnEnabled": false,
   "LargeObjectSpawnEnabled": false,
   "OreSpawnEnabled": false,
   "MonsterSpawnEnabled": false,
   "Forage_Spawn_Settings": {
     "Areas": [
       {
-        "SpringItemIndex": [
-          "Birch Bark"
-        ],
-        "SummerItemIndex": [
-          "Sarsaparilla"
-        ],
-        "FallItemIndex": [
-          "Sassafras Root"
-        ],
-        "WinterItemIndex": [
-          "Spruce Tips"
-        ],
-        "UniqueAreaID": "Forest Forage",
-        "MapName": "Forest",
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": null,
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Farm forage area 1",
+        "MapName": "Farm",
         "MinimumSpawnsPerDay": 0,
         "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [
@@ -29,7 +21,7 @@
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [],
         "ExcludeCoordinates": [],
-        "StrictTileChecking": "High",
+        "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 600,
           "EndTime": 600,
@@ -39,9 +31,7 @@
           "SpawnSound": ""
         },
         "ExtraConditions": {
-          "Years": [
-            "2+"
-          ],
+          "Years": [],
           "Seasons": [],
           "Days": [],
           "WeatherYesterday": [],
@@ -51,244 +41,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
-      },
-      {
-        "SpringItemIndex": [
-          "Birch Bark"
-        ],
-        "SummerItemIndex": [
-          "Sarsaparilla"
-        ],
-        "FallItemIndex": [
-          "Sassafras Root"
-        ],
-        "WinterItemIndex": [
-          "Spruce Tips"
-        ],
-        "UniqueAreaID": "Secret Woods Forage",
-        "MapName": "Woods",
-        "MinimumSpawnsPerDay": 0,
-        "MaximumSpawnsPerDay": 3,
-        "IncludeTerrainTypes": [
-          "Grass",
-          "Diggable"
-        ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [],
-        "StrictTileChecking": "High",
-        "SpawnTiming": {
-          "StartTime": 600,
-          "EndTime": 600,
-          "MinimumTimeBetweenSpawns": 10,
-          "MaximumSimultaneousSpawns": null,
-          "OnlySpawnIfAPlayerIsPresent": false,
-          "SpawnSound": ""
-        },
-        "ExtraConditions": {
-          "Years": [
-            "2+"
-          ],
-          "Seasons": [],
-          "Days": [],
-          "WeatherYesterday": [],
-          "WeatherToday": [],
-          "WeatherTomorrow": [],
-          "CPConditions": {},
-          "EPUPreconditions": [],
-          "LimitedNumberOfSpawns": null
-        },
-        "DaysUntilSpawnsExpire": 1
-      },
-      {
-        "SpringItemIndex": [
-          "Birch Bark"
-        ],
-        "SummerItemIndex": [
-          "Sarsaparilla"
-        ],
-        "FallItemIndex": [
-          "Sassafras Root"
-        ],
-        "WinterItemIndex": [
-          "Spruce Tips"
-        ],
-        "UniqueAreaID": "Mountain Forage",
-        "MapName": "Mountain",
-        "MinimumSpawnsPerDay": 0,
-        "MaximumSpawnsPerDay": 3,
-        "IncludeTerrainTypes": [
-          "Grass",
-          "Diggable"
-        ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [],
-        "StrictTileChecking": "High",
-        "SpawnTiming": {
-          "StartTime": 600,
-          "EndTime": 600,
-          "MinimumTimeBetweenSpawns": 10,
-          "MaximumSimultaneousSpawns": null,
-          "OnlySpawnIfAPlayerIsPresent": false,
-          "SpawnSound": ""
-        },
-        "ExtraConditions": {
-          "Years": [
-            "2+"
-          ],
-          "Seasons": [],
-          "Days": [],
-          "WeatherYesterday": [],
-          "WeatherToday": [],
-          "WeatherTomorrow": [],
-          "CPConditions": {},
-          "EPUPreconditions": [],
-          "LimitedNumberOfSpawns": null
-        },
-        "DaysUntilSpawnsExpire": 1
-      },
-      {
-        "SpringItemIndex": [
-          "Mauby Bark"
-        ],
-        "SummerItemIndex": [
-          "Guarana"
-        ],
-        "FallItemIndex": [
-          "Red Sorrel Leaf"
-        ],
-        "WinterItemIndex": [
-          "Yerba Mate Leaves"
-        ],
-        "UniqueAreaID": "Island North Forage",
-        "MapName": "IslandNorth",
-        "MinimumSpawnsPerDay": 0,
-        "MaximumSpawnsPerDay": 1,
-        "IncludeTerrainTypes": [
-          "Grass"
-        ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [],
-        "StrictTileChecking": "High",
-        "SpawnTiming": {
-          "StartTime": 600,
-          "EndTime": 600,
-          "MinimumTimeBetweenSpawns": 10,
-          "MaximumSimultaneousSpawns": null,
-          "OnlySpawnIfAPlayerIsPresent": false,
-          "SpawnSound": ""
-        },
-        "ExtraConditions": {
-          "Years": [
-            "2+"
-          ],
-          "Seasons": [],
-          "Days": [],
-          "WeatherYesterday": [],
-          "WeatherToday": [],
-          "WeatherTomorrow": [],
-          "CPConditions": {},
-          "EPUPreconditions": [],
-          "LimitedNumberOfSpawns": null
-        },
-        "DaysUntilSpawnsExpire": 1
-      },
-      {
-        "SpringItemIndex": [
-          "Mauby Bark"
-        ],
-        "SummerItemIndex": [
-          "Guarana"
-        ],
-        "FallItemIndex": [
-          "Red Sorrel Leaf"
-        ],
-        "WinterItemIndex": [
-          "Yerba Mate Leaves"
-        ],
-        "UniqueAreaID": "Island West Forage",
-        "MapName": "IslandWest",
-        "MinimumSpawnsPerDay": 0,
-        "MaximumSpawnsPerDay": 2,
-        "IncludeTerrainTypes": [
-          "Grass"
-        ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [],
-        "StrictTileChecking": "High",
-        "SpawnTiming": {
-          "StartTime": 600,
-          "EndTime": 600,
-          "MinimumTimeBetweenSpawns": 10,
-          "MaximumSimultaneousSpawns": null,
-          "OnlySpawnIfAPlayerIsPresent": false,
-          "SpawnSound": ""
-        },
-        "ExtraConditions": {
-          "Years": [
-            "2+"
-          ],
-          "Seasons": [],
-          "Days": [],
-          "WeatherYesterday": [],
-          "WeatherToday": [],
-          "WeatherTomorrow": [],
-          "CPConditions": {},
-          "EPUPreconditions": [],
-          "LimitedNumberOfSpawns": null
-        },
-        "DaysUntilSpawnsExpire": 1
-      },
-      {
-        "SpringItemIndex": [
-          "Mauby Bark"
-        ],
-        "SummerItemIndex": [
-          "Guarana"
-        ],
-        "FallItemIndex": [
-          "Red Sorrel Leaf"
-        ],
-        "WinterItemIndex": [
-          "Yerba Mate Leaves"
-        ],
-        "UniqueAreaID": "Island East Forage",
-        "MapName": "IslandEast",
-        "MinimumSpawnsPerDay": 0,
-        "MaximumSpawnsPerDay": 1,
-        "IncludeTerrainTypes": [
-          "Grass"
-        ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [],
-        "StrictTileChecking": "High",
-        "SpawnTiming": {
-          "StartTime": 600,
-          "EndTime": 600,
-          "MinimumTimeBetweenSpawns": 10,
-          "MaximumSimultaneousSpawns": null,
-          "OnlySpawnIfAPlayerIsPresent": false,
-          "SpawnSound": ""
-        },
-        "ExtraConditions": {
-          "Years": [
-            "2+"
-          ],
-          "Seasons": [],
-          "Days": [],
-          "WeatherYesterday": [],
-          "WeatherToday": [],
-          "WeatherTomorrow": [],
-          "CPConditions": {},
-          "EPUPreconditions": [],
-          "LimitedNumberOfSpawns": null
-        },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": null
       }
     ],
     "PercentExtraSpawnsPerForagingLevel": 0,
@@ -330,7 +83,7 @@
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [],
         "ExcludeCoordinates": [],
-        "StrictTileChecking": "High",
+        "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 600,
           "EndTime": 600,
@@ -371,7 +124,7 @@
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [],
         "ExcludeCoordinates": [],
-        "StrictTileChecking": "High",
+        "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 600,
           "EndTime": 600,
@@ -400,36 +153,75 @@
       "Geode": 0,
       "FrozenGeode": 5,
       "MagmaGeode": 8,
+      "OmniGeode": 0,
       "Gem": 6,
       "Copper": 0,
       "Iron": 4,
       "Gold": 7,
       "Iridium": 9,
-      "Mystic": 10
+      "Mystic": 10,
+      "Radioactive": 0,
+      "Diamond": 6,
+      "Ruby": 6,
+      "Jade": 6,
+      "Amethyst": 6,
+      "Topaz": 6,
+      "Emerald": 6,
+      "Aquamarine": 6,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0
     },
     "StartingSpawnChance": {
       "Stone": 66,
       "Geode": 8,
       "FrozenGeode": 4,
       "MagmaGeode": 2,
+      "OmniGeode": 0,
       "Gem": 5,
       "Copper": 21,
       "Iron": 15,
       "Gold": 10,
       "Iridium": 1,
-      "Mystic": 1
+      "Mystic": 1,
+      "Radioactive": 0,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0
     },
     "LevelTenSpawnChance": {
       "Stone": 48,
       "Geode": 2,
       "FrozenGeode": 2,
       "MagmaGeode": 2,
+      "OmniGeode": 0,
       "Gem": 5,
       "Copper": 16,
       "Iron": 13,
       "Gold": 10,
       "Iridium": 1,
-      "Mystic": 1
+      "Mystic": 1,
+      "Radioactive": 0,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0
     },
     "CustomTileIndex": []
   },

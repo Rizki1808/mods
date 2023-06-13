@@ -1,8 +1,0 @@
-﻿{
-	"Name": "Bitter Dwarven Wheat Wort",
-	"Description": "Clarified Dwarven Wheat Wort that has been sterilized and made Clear of all unwanted volatiles.",
-	"Category": "ArtisanGoods",
-	"Edibility": 5,
-	"EdibleIsDrink": true,
-	"Price": 330,
-	"GiftTastes": {		"Dislike": ["Arwen", "Balor", "Durin", "Edrus", "Glorgan", "Tenebra", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"]	},}

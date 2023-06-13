@@ -1,7 +1,0 @@
-﻿{
-    "Name": "Dwarven Yeast",
-    "Description": "Useful for brewing and making bread. Makes bread fluffy and carbonates beer.",
-    "Category": "ArtisanGoods",
-    "Edibility": -300,
-    "Price": 100,
-}

@@ -1,8 +1,0 @@
-﻿{
-    "Name": "Dirt Dragon Mayonnaise",
-    "Description": "It's a rich, earthy, red mayonnaise.",
-    "Category": "ArtisanGoods",
-    "Edibility": -300,
-    "EdibleIsDrink": false,
-    "Price": 2000,
-}

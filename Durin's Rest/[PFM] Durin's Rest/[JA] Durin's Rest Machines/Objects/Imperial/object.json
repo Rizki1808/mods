@@ -1,8 +1,0 @@
-﻿{
-	"Name": "Dwarven Imperial",
-	"Description": "Highly alcoholic, Dwarven Imperial beers are around 10% ABV. Distinguished by their midnight black color and strong bitter flavor.",
-	"Category": "ArtisanGoods",
-	"Edibility": 35,
-	"EdibleIsDrink": true,
-	"Price": 2000,
-}

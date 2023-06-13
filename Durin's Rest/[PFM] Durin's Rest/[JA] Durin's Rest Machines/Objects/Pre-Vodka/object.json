@@ -1,8 +1,0 @@
-﻿{
-	"Name": "Dwarven Pre-Vodka",
-	"Description": "Fermented Clear Dwarven Potato Wort ready to be turned into Dwarven Vodka.",
-	"Category": "ArtisanGoods",
-	"Edibility": 30,
-	"EdibleIsDrink": true,
-	"Price": 1600,
-	"GiftTastes": {		"Dislike": ["Arwen", "Balor", "Durin", "Edrus", "Glorgan", "Tenebra", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"]	},}

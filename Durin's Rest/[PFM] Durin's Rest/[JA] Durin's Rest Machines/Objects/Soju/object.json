@@ -1,8 +1,0 @@
-﻿{
-	"Name": "Dwarven Soju",
-	"Description": "Burned liquor. High ABV of around 40% it is much closer to Dwarven Vodka than its cousin Dwarven Sake. Made from fermented rice wine it carries over that sweetness. Drink in moderation.",
-	"Category": "ArtisanGoods",
-	"Edibility": 50,
-	"EdibleIsDrink": true,
-	"Price": 2400,
-}

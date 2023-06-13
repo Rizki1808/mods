@@ -1,8 +1,0 @@
-﻿{
-	"Name": "Dwarven Sake",
-	"Description": "Very high strength for a non-wine or non-liquor at around 15% ABV. Distinguished by its sweet flavor and aroma as well as the Koji mold used in its production.",
-	"Category": "ArtisanGoods",
-	"Edibility": 50,
-	"EdibleIsDrink": true,
-	"Price": 6000,
-}

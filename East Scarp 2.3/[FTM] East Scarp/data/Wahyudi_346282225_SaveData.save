@@ -1,0 +1,580 @@
+{
+  "WeatherForYesterday": "Rain",
+  "LNOSCounter": {
+    "SmugglerDen": 1,
+    "Custom_ESSmugglerDen forage area 1": 1,
+    "Smugglers Den": 1
+  },
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "23, 12",
+      "Type": "Monster",
+      "ID": -2,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Green Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "11, 7",
+      "Type": "Monster",
+      "ID": -3,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Red Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "22, 13",
+      "Type": "Monster",
+      "ID": -4,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Red Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "25, 9",
+      "Type": "Monster",
+      "ID": -5,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Green Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "24, 7",
+      "Type": "Monster",
+      "ID": -6,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Red Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "31, 15",
+      "Type": "Monster",
+      "ID": -7,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Purple Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "31, 9",
+      "Type": "Monster",
+      "ID": -8,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Green Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "38, 6",
+      "Type": "Monster",
+      "ID": -9,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Red Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "28, 9",
+      "Type": "Monster",
+      "ID": -10,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Red Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "28, 10",
+      "Type": "Monster",
+      "ID": -11,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Green Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "32, 16",
+      "Type": "Monster",
+      "ID": -12,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Blue Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "32, 13",
+      "Type": "Monster",
+      "ID": -13,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Red Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "30, 10",
+      "Type": "Monster",
+      "ID": -14,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Blue Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "47, 7",
+      "Type": "Monster",
+      "ID": -15,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Green Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "22, 10",
+      "Type": "Monster",
+      "ID": -16,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Green Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "18, 6",
+      "Type": "Monster",
+      "ID": -17,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Purple Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "9, 7",
+      "Type": "Monster",
+      "ID": -18,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Green Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "17, 18",
+      "Type": "Monster",
+      "ID": -19,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Purple Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "23, 11",
+      "Type": "Monster",
+      "ID": -20,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Red Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "36, 6",
+      "Type": "Monster",
+      "ID": -21,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Red Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": null,
+      "Tile": "5, 7",
+      "Type": "Forage",
+      "ID": 109,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESSmugglerDen",
+      "Name": "Item:Ruby Ring",
+      "Tile": "33, 7",
+      "Type": "Item",
+      "ID": 534,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Item",
+        "Name": "Ruby Ring"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Iron",
+      "Tile": "10, 36",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Stone",
+      "Tile": "5, 13",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Stone",
+      "Tile": "22, 54",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Stone",
+      "Tile": "5, 23",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Copper",
+      "Tile": "11, 35",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Stone",
+      "Tile": "8, 33",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Stone",
+      "Tile": "30, 51",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Stone",
+      "Tile": "11, 13",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Geode",
+      "Tile": "4, 31",
+      "Type": "Ore",
+      "ID": 75,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Amethyst",
+      "Tile": "3, 21",
+      "Type": "Ore",
+      "ID": 8,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Stone",
+      "Tile": "8, 50",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Copper",
+      "Tile": "7, 27",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Stone",
+      "Tile": "8, 14",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Stone",
+      "Tile": "23, 51",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Stone",
+      "Tile": "10, 34",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Stone",
+      "Tile": "5, 52",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Stone",
+      "Tile": "26, 52",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Stone",
+      "Tile": "21, 53",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Stone",
+      "Tile": "16, 11",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Stone",
+      "Tile": "15, 52",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Stone",
+      "Tile": "13, 36",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Stone",
+      "Tile": "23, 53",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": "Gem",
+      "Tile": "5, 54",
+      "Type": "Ore",
+      "ID": 14,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ESDeepDark",
+      "Name": null,
+      "Tile": "38, 33",
+      "Type": "Forage",
+      "ID": 404,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

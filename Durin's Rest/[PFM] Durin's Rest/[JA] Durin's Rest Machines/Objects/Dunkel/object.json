@@ -1,8 +1,0 @@
-﻿{
-	"Name": "Dwarven Dunkel",
-	"Description": "Mid-Strength at around 6% ABV. Distinguished by their dark caramel color and smooth roasted biscuit flavor.",
-	"Category": "ArtisanGoods",
-	"Edibility": 35,
-	"EdibleIsDrink": true,
-	"Price": 1940,
-}

@@ -1,7 +1,0 @@
-﻿{
-    "Name": "Dwarven Silver Bar",
-    "Description": "A bar of pure dwarven silver.",
-    "Category": "-15",
-    "CanSell": true,
-	"Price": 250,
-}

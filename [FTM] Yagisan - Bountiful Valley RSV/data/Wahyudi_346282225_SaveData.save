@@ -1,0 +1,271 @@
+{
+  "WeatherForYesterday": "Rain",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Tulip",
+      "Tile": "66, 30",
+      "Type": "Forage",
+      "ID": 591,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Blue Jazz",
+      "Tile": "43, 28",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Blue Jazz",
+      "Tile": "51, 17",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Tulip",
+      "Tile": "50, 28",
+      "Type": "Forage",
+      "ID": 591,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Blue Jazz",
+      "Tile": "26, 21",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVTheHike",
+      "Name": "Blue Jazz",
+      "Tile": "56, 48",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVTheHike",
+      "Name": "Blue Jazz",
+      "Tile": "1, 79",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVTheHike",
+      "Name": "Blue Jazz",
+      "Tile": "66, 40",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVTheHike",
+      "Name": "Tulip",
+      "Tile": "31, 80",
+      "Type": "Forage",
+      "ID": 591,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVTheHike",
+      "Name": "Blue Jazz",
+      "Tile": "50, 24",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Blue Jazz",
+      "Tile": "86, 24",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Tulip",
+      "Tile": "16, 27",
+      "Type": "Forage",
+      "ID": 591,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Blue Jazz",
+      "Tile": "47, 39",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Tulip",
+      "Tile": "52, 35",
+      "Type": "Forage",
+      "ID": 591,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVTheHike",
+      "Name": "Tulip",
+      "Tile": "38, 51",
+      "Type": "Forage",
+      "ID": 591,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVTheHike",
+      "Name": "Blue Jazz",
+      "Tile": "46, 79",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVTheHike",
+      "Name": "Blue Jazz",
+      "Tile": "64, 56",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVTheHike",
+      "Name": "Blue Jazz",
+      "Tile": "27, 76",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVCliff",
+      "Name": "Blue Jazz",
+      "Tile": "57, 22",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVCliff",
+      "Name": "Blue Jazz",
+      "Tile": "50, 23",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVCliff",
+      "Name": "Tulip",
+      "Tile": "36, 22",
+      "Type": "Forage",
+      "ID": 591,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVCliff",
+      "Name": "Blue Jazz",
+      "Tile": "78, 21",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVCliff",
+      "Name": "Tulip",
+      "Tile": "33, 27",
+      "Type": "Forage",
+      "ID": 591,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVCableCar",
+      "Name": "Blue Jazz",
+      "Tile": "4, 11",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

@@ -58,7 +58,7 @@
     "InfiniteJunimoInventory": false
   },
   "Other": {
-    "SpawnJunimoKeybind": "J",
+    "SpawnJunimoKeybind": "None",
     "ReceiveMessages": true,
     "HutClickEnabled": true,
     "HutMenuKeybind": "None"

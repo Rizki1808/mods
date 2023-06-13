@@ -1,8 +1,0 @@
-﻿{
-	"Name": "Dwarven Corn Wort",
-	"Description": "An aqueous solution of extracted Corn sugars intended for fermentation.",
-	"Category": "ArtisanGoods",
-	"Edibility": 1,
-	"EdibleIsDrink": true,
-	"Price": 825,
-	"GiftTastes": {		"Dislike": ["Arwen", "Balor", "Durin", "Edrus", "Glorgan", "Tenebra", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"]	},}

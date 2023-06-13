@@ -1,8 +1,0 @@
-﻿{
-	"Name": "Dwarven Wheat Mash",
-	"Description": "Dwarven Wheat Malt mixed with water to form a porridge-like mixture.",
-	"Category": "ArtisanGoods",
-	"Edibility": -300,
-	"EdibleIsDrink": false,
-	"Price": 110,
-	"GiftTastes": {		"Dislike": ["Arwen", "Balor", "Durin", "Edrus", "Glorgan", "Tenebra", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"]	},}

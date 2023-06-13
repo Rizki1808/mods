@@ -1,9 +1,0 @@
-﻿{
-    "Name": "Durinium",
-    "Description": "A valuable golden crystal that only appears in the mines above the sleepy town of Durin's Rest.",
-    "Category": "Mineral",
-    "Price": 500,
-	"GiftTastes": {
-		"Love": ["Glorgan"],
-	},
-}

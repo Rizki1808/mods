@@ -1,6 +1,6 @@
 {
   "Controls": {
-    "ToggleLookup": "LeftStick",
+    "ToggleLookup": "LeftControl",
     "ToggleSearch": "LeftShift + F1",
     "ScrollUp": "Up",
     "ScrollDown": "Down",

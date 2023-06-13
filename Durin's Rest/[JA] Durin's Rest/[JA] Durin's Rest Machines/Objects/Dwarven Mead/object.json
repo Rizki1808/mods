@@ -1,8 +1,0 @@
-﻿{
-	"Name": "Shadow Mead",
-	"Description": "A sweet, dark, fermented beverage made from Shadow Honey. Drink in moderation.",
-	"Category": "ArtisanGoods",
-	"Edibility": 200,
-	"EdibleIsDrink": true,
-	"Price": 4880,
-}
